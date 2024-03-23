@@ -988,7 +988,7 @@ let drugToShow = ``;
             "drugName": "حقنة البنسيلين",
             "drugNameEN": "penicillin injection",
             "drugCode": "4878",
-            "image": "imgs/Depo-pen.jpg",
+            "image": "imgs/depo-pen.jpg",
             "activeConstituent": "penicillin",
             "alternatives": {
                 "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
