@@ -618,7 +618,7 @@ let drugToShow = ``;
             "drugName": "كوليروز 10",
             "drugNameEN": "Cholerose 10mg",
             "drugCode": "4878",
-            "image": "imgs/Cholerose10.jpg",
+            "image": "imgs/cholerose10.jpg",
             "activeConstituent": "atorvastatin 10mg",
             "alternatives": {
                 "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
