@@ -743,7 +743,7 @@ let drugToShow = ``;
             "availability": "available"
         },
         {
-            "drugName": "ماريفان 1 - Marevan 1",
+            "drugName": "ماريفان 1",
             "drugNameEN": "",
             "drugCode": "4878",
             "image": "imgs/marevan1.jpg",
@@ -759,7 +759,7 @@ let drugToShow = ``;
             "availability": "available"
         },
         {
-            "drugName": "ماريفان 3 - Marevan 3",
+            "drugName": "ماريفان 3",
             "drugNameEN": "",
             "drugCode": "4878",
             "image": "imgs/marevan3.jpg",
@@ -775,7 +775,7 @@ let drugToShow = ``;
             "availability": "not-available"
         },
         {
-            "drugName": "ماريفان 5 - Marevan 5",
+            "drugName": "ماريفان 5",
             "drugNameEN": "",
             "drugCode": "4878",
             "image": "imgs/marevan5.jpg",
