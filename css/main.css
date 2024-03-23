@@ -187,9 +187,9 @@ padding: 0 10px;
     margin: 10px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     border-top: 2px solid var(--main-color1);
     border-bottom: 2px solid var(--main-color1);
+border-radius: 15px;
 }
 .drugs-cards .every-drug .details .info-container .info{
     min-height: 100px;
