@@ -33,7 +33,7 @@ let drugToShow = ``;
                 "images" : ['imgs/bisoocard5-plus.jpg','imgs/concor5plus.jpg']
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص ع الريق صباحا",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -45,11 +45,11 @@ let drugToShow = ``;
             "image": "imgs/concor5.jpg",
             "activeConstituent": "bisoprolol 5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
+                "names": ['كونكور 5','بيزوكارد 5'],
                 "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص مرة يوميا على حسب ارشادات الطبيب",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -61,11 +61,11 @@ let drugToShow = ``;
             "image": "imgs/sinopril.jpg",
             "activeConstituent": "lisinopril 10mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
+                "names": ['سينوبريل 10'],
                 "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص مرة يوميا على حسب ارشادات الطبيب",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -1222,7 +1222,7 @@ function selectDrugs(theDrug) {
 
 // function to get alternatives images
 function getAlternativesImages(divToAppend,drugToFetch){
-    for(let i = 0; i < drugToFetch.alternatives.names.length ; i++){
+    for(let i = 0; i < drugToFetch.alternatives.images.length ; i++){
         let alternativDrugDiv = document.createElement('div');
         alternativDrugDiv.className = 'alternative-drug';
         
