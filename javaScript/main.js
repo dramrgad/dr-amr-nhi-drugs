@@ -189,7 +189,7 @@ let drugToShow = ``;
             "image": "imgs/avivavasc5160.jpg",
             "activeConstituent": "amlodipine 5mg + valsartan 160mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
+                "names": ['افيفافاسك','بلوكاتنس','اكسفورج'],
                 "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
             },
             "traditionalInfo": "علاج الضغط",

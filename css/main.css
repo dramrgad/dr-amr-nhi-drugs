@@ -145,6 +145,7 @@ padding: 0 10px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    background-color: black;
     width: 95vw;
     height: 95vh;
     opacity: 100%;
