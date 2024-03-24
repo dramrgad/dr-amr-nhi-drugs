@@ -29,7 +29,7 @@ let drugToShow = ``;
             "image": "imgs/bisoocard5-plus.jpg",
             "activeConstituent": "bisoprolol 5mg + hydrochlorothiazide 12.5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
+                "names": ['بيزوكارد 5 بلس'],
                 "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
             },
             "traditionalInfo": "علاج الضغط",
