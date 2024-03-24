@@ -29,8 +29,8 @@ let drugToShow = ``;
             "image": "imgs/bisoocard5-plus.jpg",
             "activeConstituent": "bisoprolol 5mg + hydrochlorothiazide 12.5mg",
             "alternatives": {
-                "names": ['بيزوكارد 5 بلس'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": ['بيزوكارد 5 بلس','كونكور 5 بلس'],
+                "images" : ['imgs/bisoocard5-plus.jpg','imgs/concor5plus.jpg']
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -1186,9 +1186,21 @@ recomendedUseDiv.appendChild(recomendedUseDivP);
 // add recomended Use Div to the info-container
 infoContainer.appendChild(recomendedUseDiv);
 
+// create alternatives container
+let alternativesContainer = document.createElement('div');
+alternativesContainer.className = 'alternatives-container';
+
+
 // add infocontainer to the details div
 detailsDiv.appendChild(infoContainer);
 
+// create alternativesDrugsContainer
+let altDrugsImagesContainer = document.createElement('div');
+altDrugsImagesContainer.className = 'alt-imgs-container';
+
+getAlternativesImages(altDrugsImagesContainer,drugOPJ);
+
+detailsDiv.appendChild(altDrugsImagesContainer);
 theDrug.appendChild(detailsDiv);
 
 }
@@ -1205,5 +1217,29 @@ function selectDrugs(theDrug) {
         event.currentTarget.parentElement.parentElement.querySelector('.details').classList.remove('active');
     })
 })
+
+}
+
+// function to get alternatives images
+function getAlternativesImages(divToAppend,drugToFetch){
+    for(let i = 0; i < drugToFetch.alternatives.names.length ; i++){
+        let alternativDrugDiv = document.createElement('div');
+        alternativDrugDiv.className = 'alternative-drug';
+        
+        let imgAlternative = document.createElement('img');
+        imgAlternative.src = `${drugToFetch.alternatives.images[i]}`
+        alternativDrugDiv.appendChild(imgAlternative);
+        
+        // create p for name
+        let alternativeDrugName = document.createElement('span');
+        alternativeDrugName.className = 'alt-drug-name';
+        let alternativeDrugNameText = document.createTextNode(`${drugToFetch.alternatives.names[i]}`);
+        alternativeDrugName.appendChild(alternativeDrugNameText);
+        
+        // append to details div
+        alternativDrugDiv.appendChild(imgAlternative);
+        alternativDrugDiv.appendChild(alternativeDrugName);
+        divToAppend.appendChild(alternativDrugDiv);
+}
 
 }
