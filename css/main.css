@@ -47,6 +47,9 @@ align-items: center;
 background-color: var(--main-color1);
 padding: 0 10px;
 }
+.main-head .main-nav{
+  font-size: 14px;
+}
 /* احتيار الادوية */
 .selector{
     margin: var(--section-margin);
