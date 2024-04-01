@@ -635,7 +635,7 @@ let drugToShow = ``;
         {
             "drugName": "اتوريزا 10/20",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "",
             "image": "imgs/atoreza1020.jpg",
             "activeConstituent": "atorvastatin 10mg + ezetimibe 20mg",
             "alternatives": {
@@ -651,7 +651,7 @@ let drugToShow = ``;
         {
             "drugName": "اتوريزا 10/40",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "4261",
             "image": "imgs/atoreza1040.jpg",
             "activeConstituent": "atorvastatin 10mg + ezetimibe 40mg",
             "alternatives": {
@@ -667,7 +667,7 @@ let drugToShow = ``;
         {
             "drugName": "اتور 20",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "774",
             "image": "imgs/ator20.jpg",
             "activeConstituent": "atorvastatin 20mg",
             "alternatives": {
@@ -683,7 +683,7 @@ let drugToShow = ``;
         {
             "drugName": "اتور 40",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "2744",
             "image": "imgs/ator40.jpg",
             "activeConstituent": "atorvastatin 40mg",
             "alternatives": {
@@ -699,7 +699,7 @@ let drugToShow = ``;
         {
             "drugName": "ليبانتيل",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "3167",
             "image": "imgs/lipanthyl.jpg",
             "activeConstituent": "fenofibrate",
             "alternatives": {
@@ -715,7 +715,7 @@ let drugToShow = ``;
         {
             "drugName": "داينترا 5",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "705",
             "image": "imgs/dinitra5.jpg",
             "activeConstituent": "trazodone 5mg",
             "alternatives": {
@@ -731,7 +731,7 @@ let drugToShow = ``;
         {
             "drugName": "نتروماك 2.5 - Nitromac 2.5",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "3058",
             "image": "imgs/nitromak.jpg",
             "activeConstituent": "nitroglycerin 2.5mg",
             "alternatives": {
