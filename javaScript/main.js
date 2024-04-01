@@ -1,5 +1,7 @@
 // الاقسام
-const dugDivision = ['جميع الادوية','الادوية المتوفرة','الادوية الناقصة','ادوية السكر','ادوية الضغط','ادوية ادرار البول','الدهون-او-الكوليستيرول','ادوية السيولة','ادوية القلب والدعامة','ادوية اخرى'];
+const dugDivision = ['جميع الادوية','الادوية المتوفرة','الادوية الغير متوفرة','ادوية السكر','ادوية الضغط','ادوية ادرار البول','الدهون-او-الكوليستيرول','ادوية السيولة','ادوية القلب والدعامة','ادوية اخرى','الادوية الخاصة بي'];
+let myList = [];
+window.localStorage.getItem('myDrugs') ? myList = JSON.parse(window.localStorage.getItem('myDrugs')) : myList = myList;
 // انشاء اسماء الاقسام من المصفوفة
 const ulList = document.querySelector(".drugs-list");
 function creatDivisions(divs){
@@ -1065,7 +1067,10 @@ let drugToShow = ``;
                 getDrugs(drug);
             }else if(e.target.innerText === 'الادوية المتوفرة' && drug.availability === "available"){
                 getDrugs(drug);
-            }else if(e.target.innerText === 'الادوية الناقصة' && drug.availability === "not-available"){
+            }else if(e.target.innerText === 'الادوية الغير متوفرة' && drug.availability === "not-available"){
+                getDrugs(drug);
+            }
+            else if(e.target.innerText === 'الادوية الخاصة بي' && myList.includes(drug.drugName)){
                 getDrugs(drug);
             }else if(drug.division1 === e.target.innerText || drug.division2 === e.target.innerText){
                 getDrugs(drug);
@@ -1108,12 +1113,27 @@ function getDrugs(oneDrug){
     let name6InnerText = document.createTextNode(`${oneDrug.traditionalInfo}`);
     nameh6.appendChild(name6InnerText);
     divInfo.appendChild(nameh6);
+    // creat div container for details
+    let detailsContainer = document.createElement('div');
+    detailsContainer.className = 'details-container';
     // creat span for more details
     let moreDetails = document.createElement('span');
     moreDetails.className = 'more-details';
     let moreDetailsText = document.createTextNode('عرض معلومات الدواء');
     moreDetails.appendChild(moreDetailsText);
-    divInfo.appendChild(moreDetails);
+    detailsContainer.appendChild(moreDetails);
+    // create favorite button
+    let favoritBTN = document.createElement('span');
+    favoritBTN.className = 'favorite';
+    favoritBTN.appendChild(document.createTextNode('اضافة الى ادويتي'));
+    detailsContainer.appendChild(favoritBTN);
+// create remove button
+let removeBTN = document.createElement('span');
+removeBTN.className = 'remove';
+removeBTN.appendChild(document.createTextNode('حذف من ادويتي'));
+detailsContainer.appendChild(removeBTN);
+
+    divInfo.appendChild(detailsContainer);
 
     // add drug info to the drug main card // everydrug
     everyDrug.appendChild(divInfo);
@@ -1123,6 +1143,9 @@ function getDrugs(oneDrug){
 
     createDetails(everyDrug);
     selectDrugs(everyDrug);
+    addToFavorite(everyDrug);
+    removeFromFavorite(everyDrug);
+    toggleHideClass(oneDrug,everyDrug);
 
 }
 // create deatails div function
@@ -1210,8 +1233,8 @@ function selectDrugs(theDrug) {
     theDrug.querySelector('.more-details').addEventListener('click',function (event){
         // console.log(event.currentTarget.parentElement.parentElement.querySelector('.details'));
         // console.log(event.currentTarget.parentElement.parentElement.querySelector('.info h4').innerText);
-    event.currentTarget.parentElement.parentElement.querySelector('.details').classList.add('active');
-    let closeBTN = event.currentTarget.parentElement.parentElement.querySelector('.close');
+    event.currentTarget.parentElement.parentElement.parentElement.querySelector('.details').classList.add('active');
+    let closeBTN = event.currentTarget.parentElement.parentElement.parentElement.querySelector('.close');
     // console.log(closeBTN);
     closeBTN.addEventListener("click",function(event){
         event.currentTarget.parentElement.parentElement.querySelector('.details').classList.remove('active');
@@ -1220,6 +1243,38 @@ function selectDrugs(theDrug) {
 
 }
 
+// add to favortite
+function addToFavorite(theDrug){
+    theDrug.querySelector('.favorite').addEventListener('click',function(event){
+        let myDrug = event.currentTarget.parentElement.parentElement.querySelector('.name').innerText;
+        !myList.includes(myDrug) ? myList.push(myDrug) : false ;
+        window.localStorage.setItem('myDrugs',JSON.stringify(myList));
+        theDrug.querySelector('.favorite').classList.add('hide');
+        theDrug.querySelector('.remove').classList.remove('hide');
+
+    })
+}
+
+// remove from favorite
+function removeFromFavorite(theDrug){
+    theDrug.querySelector('.remove').addEventListener('click',function(event){
+        let myDrug = event.currentTarget.parentElement.parentElement.querySelector('.name').innerText;
+        myList = myList.filter(drug => drug != myDrug)
+        window.localStorage.setItem('myDrugs',JSON.stringify(myList));
+        theDrug.querySelector('.remove').classList.add('hide');
+        theDrug.querySelector('.favorite').classList.remove('hide');
+
+    })
+}
+// toggle hide class to favorites drugs
+function toggleHideClass(oneDrug,everyDrug){
+    if(myList.includes(oneDrug.drugName)){
+        everyDrug.querySelector('.favorite').classList.add('hide');
+    }else {
+        everyDrug.querySelector('.remove').classList.add('hide');
+
+    }
+}
 // function to get alternatives images
 function getAlternativesImages(divToAppend,drugToFetch){
     for(let i = 0; i < drugToFetch.alternatives.images.length ; i++){

@@ -110,15 +110,31 @@ padding: 0 10px;
 .drugs-cards .every-drug .info{
     width: 90%;
 }
-.drugs-cards .every-drug .more-details{
+.drugs-cards .every-drug .more-details,
+.drugs-cards .every-drug .favorite,
+.drugs-cards .every-drug .remove{
     display: inline-block;
     background-color: black;
     color: white;
     padding: 3px 0;
     border-radius: 5px;
-    width: 100%;
+    width: 48%;
     font-weight: bold;
     cursor: pointer;
+}
+.drugs-cards .every-drug .favorite{
+    background-color: #225f1e;
+    margin-right: 5px;
+}
+.drugs-cards .every-drug .favorite.hide{
+    display: none;
+}
+.drugs-cards .every-drug .remove{
+    background-color: red;
+    margin-right: 5px;
+}
+.drugs-cards .every-drug .remove.hide{
+    display: none;
 }
 
 .drugs-cards .every-drug.available::before{
