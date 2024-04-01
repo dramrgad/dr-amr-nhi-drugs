@@ -122,6 +122,14 @@ padding: 0 10px;
     font-weight: bold;
     cursor: pointer;
 }
+
+@media (max-width: 400px) {
+  .drugs-cards .every-drug .more-details,
+  .drugs-cards .every-drug .favorite,
+  .drugs-cards .every-drug .remove {
+  font-size: 14px;
+}
+}
 .drugs-cards .every-drug .favorite{
     background-color: #225f1e;
     margin-right: 5px;
