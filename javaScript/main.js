@@ -27,7 +27,7 @@ let drugToShow = ``;
         {
             "drugName": "بيزوكارد 5 بلس",
             "drugNameEN": "bisocard 5 plus",
-            "drugCode": "4878",
+            "drugCode": "4258",
             "image": "imgs/bisoocard5-plus.jpg",
             "activeConstituent": "bisoprolol 5mg + hydrochlorothiazide 12.5mg",
             "alternatives": {
@@ -43,7 +43,7 @@ let drugToShow = ``;
         {
             "drugName": "كونكور 5",
             "drugNameEN": "concor 5",
-            "drugCode": "4878",
+            "drugCode": "742",
             "image": "imgs/concor5.jpg",
             "activeConstituent": "bisoprolol 5mg",
             "alternatives": {
@@ -59,7 +59,7 @@ let drugToShow = ``;
         {
             "drugName": "سينوبريل 10",
             "drugNameEN": "sinopril 10",
-            "drugCode": "4878",
+            "drugCode": "3327",
             "image": "imgs/sinopril.jpg",
             "activeConstituent": "lisinopril 10mg",
             "alternatives": {
@@ -75,7 +75,7 @@ let drugToShow = ``;
         {
             "drugName": "سينوبريل كو",
             "drugNameEN": "sinopril co",
-            "drugCode": "4878",
+            "drugCode": "3328",
             "image": "imgs/sinopril-co.jpg",
             "activeConstituent": "lisinopril 20mg + hydrochlorothiazide 25mg",
             "alternatives": {
@@ -91,7 +91,7 @@ let drugToShow = ``;
         {
             "drugName": "كارفيد 6.25",
             "drugNameEN": "carvid 6.25",
-            "drugCode": "4878",
+            "drugCode": "2661",
             "image": "imgs/carvid.jpg",
             "activeConstituent": "carvedilol 6.25mg",
             "alternatives": {
@@ -107,7 +107,7 @@ let drugToShow = ``;
         {
             "drugName": "كارفيبريس 12.5",
             "drugNameEN": "Carvipress 12.5",
-            "drugCode": "4878",
+            "drugCode": "2659",
             "image": "imgs/carvipress.jpg",
             "activeConstituent": "carvidilol 12.5mg",
             "alternatives": {
@@ -123,7 +123,7 @@ let drugToShow = ``;
         {
             "drugName": "ايرستابكس 20",
             "drugNameEN": "erastapex 20",
-            "drugCode": "4878",
+            "drugCode": "4838",
             "image": "imgs/erastapex20.jpg",
             "activeConstituent": "omlesartan 20mg",
             "alternatives": {
@@ -139,7 +139,7 @@ let drugToShow = ``;
         {
             "drugName": "ايرستابكس كو 20/5",
             "drugNameEN": "erastapex co 20/5",
-            "drugCode": "4878",
+            "drugCode": "2728",
             "image": "imgs/erastapexco20.jpg",
             "activeConstituent": "omlesartan 5mg + amlodipine 5mg",
             "alternatives": {
@@ -155,7 +155,7 @@ let drugToShow = ``;
         {
             "drugName": "ايرستابكس تريو",
             "drugNameEN": "erastapex trio",
-            "drugCode": "4878",
+            "drugCode": "2727",
             "image": "imgs/erastapextrio.jpg",
             "activeConstituent": "esomeprazole 20mg + amoxicillin 1000mg + clarithromycin 500mg",
             "alternatives": {
@@ -166,12 +166,12 @@ let drugToShow = ``;
             "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "ايرستابكس بلس",
             "drugNameEN": "erastapex plus",
-            "drugCode": "4878",
+            "drugCode": "4770",
             "image": "imgs/erastapexplus.jpg",
             "activeConstituent": "esomeprazole 40mg",
             "alternatives": {
@@ -187,7 +187,7 @@ let drugToShow = ``;
         {
             "drugName": "افيفافاسك 5/160",
             "drugNameEN": "avivavasc 5/160",
-            "drugCode": "4878",
+            "drugCode": "4528",
             "image": "imgs/avivavasc5160.jpg",
             "activeConstituent": "amlodipine 5mg + valsartan 160mg",
             "alternatives": {
@@ -203,7 +203,7 @@ let drugToShow = ``;
         {
             "drugName": "افيفافاسك 10/16",
             "drugNameEN": "avivavasc 10/160",
-            "drugCode": "4878",
+            "drugCode": "4794",
             "image": "imgs/avivavasc10160.jpg",
             "activeConstituent": "amlodipine 10mg + valsartan 160mg",
             "alternatives": {
@@ -219,7 +219,7 @@ let drugToShow = ``;
         {
             "drugName": "ترياكور 5/5",
             "drugNameEN": "triacor 5/5",
-            "drugCode": "4878",
+            "drugCode": "3607",
             "image": "imgs/triacor55.jpg",
             "activeConstituent": "amlodipine 5mg + perindopril 5mg",
             "alternatives": {
