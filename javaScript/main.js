@@ -48,7 +48,7 @@ let drugToShow = ``;
             "activeConstituent": "bisoprolol 5mg",
             "alternatives": {
                 "names": ['كونكور 5','بيزوكارد 5'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص مرة يوميا على حسب ارشادات الطبيب",
@@ -64,7 +64,7 @@ let drugToShow = ``;
             "activeConstituent": "lisinopril 10mg",
             "alternatives": {
                 "names": ['سينوبريل 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص مرة يوميا على حسب ارشادات الطبيب",
@@ -80,7 +80,7 @@ let drugToShow = ``;
             "activeConstituent": "lisinopril 20mg + hydrochlorothiazide 25mg",
             "alternatives": {
                 "names": ['سينوبريل كو','ليزينوبريل كو'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -95,8 +95,8 @@ let drugToShow = ``;
             "image": "imgs/carvid.jpg",
             "activeConstituent": "carvedilol 6.25mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج القلب",
             "administration": "قرص بعد الفطار",
@@ -111,8 +111,8 @@ let drugToShow = ``;
             "image": "imgs/carvipress.jpg",
             "activeConstituent": "carvidilol 12.5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج القلب",
             "administration": "قرص بعد الفطار",
@@ -127,8 +127,8 @@ let drugToShow = ``;
             "image": "imgs/erastapex20.jpg",
             "activeConstituent": "omlesartan 20mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص قبل الفطار",
@@ -143,8 +143,8 @@ let drugToShow = ``;
             "image": "imgs/erastapexco20.jpg",
             "activeConstituent": "omlesartan 5mg + amlodipine 5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج قرحة المعدة",
             "administration": "قرص قبل الفطار",
@@ -159,8 +159,8 @@ let drugToShow = ``;
             "image": "imgs/erastapextrio.jpg",
             "activeConstituent": "esomeprazole 20mg + amoxicillin 1000mg + clarithromycin 500mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج قرحة المعدة",
             "administration": "قرص قبل الفطار",
@@ -175,8 +175,8 @@ let drugToShow = ``;
             "image": "imgs/erastapexplus.jpg",
             "activeConstituent": "esomeprazole 40mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج قرحة المعدة",
             "administration": "قرص قبل الفطار",
@@ -192,7 +192,7 @@ let drugToShow = ``;
             "activeConstituent": "amlodipine 5mg + valsartan 160mg",
             "alternatives": {
                 "names": ['افيفافاسك','بلوكاتنس','اكسفورج'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -207,8 +207,8 @@ let drugToShow = ``;
             "image": "imgs/avivavasc10160.jpg",
             "activeConstituent": "amlodipine 10mg + valsartan 160mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -223,8 +223,8 @@ let drugToShow = ``;
             "image": "imgs/triacor55.jpg",
             "activeConstituent": "amlodipine 5mg + perindopril 5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -239,8 +239,8 @@ let drugToShow = ``;
             "image": "imgs/tritacemax.jpg",
             "activeConstituent": "olmesartan 40mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -255,8 +255,8 @@ let drugToShow = ``;
             "image": "imgs/tritace5.jpg",
             "activeConstituent": "olmesartan 5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -271,8 +271,8 @@ let drugToShow = ``;
             "image": "imgs/tritace2-5.jpg",
             "activeConstituent": "olmesartan 2.5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -287,8 +287,8 @@ let drugToShow = ``;
             "image": "imgs/clopex.jpg",
             "activeConstituent": "clopidogrel 75mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
             "administration": "قرص بعد الفطار",
@@ -303,8 +303,8 @@ let drugToShow = ``;
             "image": "imgs/cardixin.jpg",
             "activeConstituent": "diltiazem",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج اضطرابات ضربات القلب",
             "administration": "قرص بعد الفطار",
@@ -319,8 +319,8 @@ let drugToShow = ``;
             "image": "imgs/betacor.jpg",
             "activeConstituent": "bisoprolol",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط واضطرابات ضربات القلب",
             "administration": "قرص بعد الفطار",
@@ -335,8 +335,8 @@ let drugToShow = ``;
             "image": "imgs/adancor10.jpg",
             "activeConstituent": "adalat",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -351,8 +351,8 @@ let drugToShow = ``;
             "image": "imgs/randil20.jpg",
             "activeConstituent": "nicorandil 20mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -368,7 +368,7 @@ let drugToShow = ``;
             "activeConstituent": "verapamil",
             "alternatives": {
                 "names": ['ترايكارديا','ميتاكارديا','فاستاريل ام ار'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج القلب",
             "administration": "قرص بعد الفطار",
@@ -383,8 +383,8 @@ let drugToShow = ``;
             "image": "imgs/cordarone.jpg",
             "activeConstituent": "amiodarone",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج اضطرابات ضربات القلب",
             "administration": "قرص بعد الفطار",
@@ -399,8 +399,8 @@ let drugToShow = ``;
             "image": "imgs/isoptin80.jpg",
             "activeConstituent": "isoptin",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج ارتفاع ضغط الدم",
             "administration": "قرص بعد الفطار",
@@ -415,8 +415,8 @@ let drugToShow = ``;
             "image": "imgs/inderal10.jpg",
             "activeConstituent": "propranolol",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع وضربات القلب",
             "administration": "قرص بعد الفطار",
@@ -431,8 +431,8 @@ let drugToShow = ``;
             "image": "imgs/alkapress5.jpg",
             "activeConstituent": "amlodipine 5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع",
             "administration": "قرص بعد الفطار",
@@ -447,8 +447,8 @@ let drugToShow = ``;
             "image": "imgs/candelkan8.jpg",
             "activeConstituent": "candesartan 8mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع",
             "administration": "قرص بعد الفطار",
@@ -463,8 +463,8 @@ let drugToShow = ``;
             "image": "imgs/candelkan16plus.jpg",
             "activeConstituent": "candesartan 16mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع",
             "administration": "قرص بعد الفطار",
@@ -479,8 +479,8 @@ let drugToShow = ``;
             "image": "imgs/selokenzoc100.jpg",
             "activeConstituent": "silodosin 100mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -495,8 +495,8 @@ let drugToShow = ``;
             "image": "imgs/nevilop5.jpg",
             "activeConstituent": "amlodipine 5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع",
             "administration": "قرص بعد الفطار",
@@ -511,8 +511,8 @@ let drugToShow = ``;
             "image": "imgs/nevilop5plus.jpg",
             "activeConstituent": "amlodipine 5mg + valsartan 80mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع",
             "administration": "قرص بعد الفطار",
@@ -528,7 +528,7 @@ let drugToShow = ``;
             "activeConstituent": "ivabradine 5mg",
             "alternatives": {
                 "names": ['ايفابرادين 5','نابيبرادين 5','بروكارلان 5'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج ضربات القلب",
             "administration": "قرص بعد الفطار",
@@ -544,7 +544,7 @@ let drugToShow = ``;
             "activeConstituent": "ivabradine 7.5mg",
             "alternatives": {
                 "names": ['ايفابرادين 7.5','نابيبرادين 7.5','بروكارلان 7.5'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج ضربات القلب",
             "administration": "قرص بعد الفطار",
@@ -559,8 +559,8 @@ let drugToShow = ``;
             "image": "imgs/exaretic20.jpg",
             "activeConstituent": "torasemide 20mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط ومدر البول",
             "administration": "قرص قبل الفطار ع الريق صباحا",
@@ -575,8 +575,8 @@ let drugToShow = ``;
             "image": "imgs/lasix40.jpg",
             "activeConstituent": "furosemide 40mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط ومدر البول",
             "administration": "قرص قبل الفطار ع الريق صباحا",
@@ -591,8 +591,8 @@ let drugToShow = ``;
             "image": "imgs/aldactone25.jpg",
             "activeConstituent": "spironolactone 25mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط ومدر البول",
             "administration": "قرص قبل الفطار ع الريق صباحا",
@@ -607,8 +607,8 @@ let drugToShow = ``;
             "image": "imgs/carfalone25.jpg",
             "activeConstituent": "carvedilol 25mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الضغط ومدر البول",
             "administration": "قرص قبل الفطار ع الريق صباحا",
@@ -623,8 +623,8 @@ let drugToShow = ``;
             "image": "imgs/cholerose10.jpg",
             "activeConstituent": "atorvastatin 10mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الدهون",
             "administration": "قرص بعد العشاء",
@@ -639,8 +639,8 @@ let drugToShow = ``;
             "image": "imgs/atoreza1020.jpg",
             "activeConstituent": "atorvastatin 10mg + ezetimibe 20mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الدهون",
             "administration": "قرص بعد العشاء",
@@ -655,8 +655,8 @@ let drugToShow = ``;
             "image": "imgs/atoreza1040.jpg",
             "activeConstituent": "atorvastatin 10mg + ezetimibe 40mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الدهون",
             "administration": "قرص بعد العشاء",
@@ -671,8 +671,8 @@ let drugToShow = ``;
             "image": "imgs/ator20.jpg",
             "activeConstituent": "atorvastatin 20mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الدهون",
             "administration": "قرص بعد العشاء",
@@ -687,8 +687,8 @@ let drugToShow = ``;
             "image": "imgs/ator40.jpg",
             "activeConstituent": "atorvastatin 40mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الدهون",
             "administration": "قرص بعد العشاء",
@@ -703,8 +703,8 @@ let drugToShow = ``;
             "image": "imgs/lipanthyl.jpg",
             "activeConstituent": "fenofibrate",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الدهون الثلاثية",
             "administration": "قرص بعد العشاء",
@@ -719,8 +719,8 @@ let drugToShow = ``;
             "image": "imgs/dinitra5.jpg",
             "activeConstituent": "trazodone 5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج الاكتئاب والقلق",
             "administration": "قرص قبل النوم",
@@ -735,8 +735,8 @@ let drugToShow = ``;
             "image": "imgs/nitromak.jpg",
             "activeConstituent": "nitroglycerin 2.5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج ألم الصدر وانقباض الشرايين القلبية",
             "administration": "قرص تحت اللسان",
@@ -751,8 +751,8 @@ let drugToShow = ``;
             "image": "imgs/marevan1.jpg",
             "activeConstituent": "warfarin 1mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
             "administration": "قرص بعد الفطار",
@@ -767,8 +767,8 @@ let drugToShow = ``;
             "image": "imgs/marevan3.jpg",
             "activeConstituent": "warfarin 3mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
             "administration": "قرص بعد الفطار",
@@ -783,8 +783,8 @@ let drugToShow = ``;
             "image": "imgs/marevan5.jpg",
             "activeConstituent": "warfarin 5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
             "administration": "قرص بعد الفطار",
@@ -799,8 +799,8 @@ let drugToShow = ``;
             "image": "imgs/aspocid.jpg",
             "activeConstituent": "aspirin",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج ارتفاع ضغط الدم",
             "administration": "قرص بعد الفطار",
@@ -815,8 +815,8 @@ let drugToShow = ``;
             "image": "imgs/vaxa5.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
             "administration": "قرص بعد الفطار",
@@ -832,8 +832,8 @@ let drugToShow = ``;
             "image": "imgs/vaxa15.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
             "administration": "قرص بعد الفطار",
@@ -849,8 +849,8 @@ let drugToShow = ``;
             "image": "imgs/vaxa20.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
             "administration": "قرص بعد الفطار",
@@ -866,7 +866,7 @@ let drugToShow = ``;
             "activeConstituent": "insulin",
             "alternatives": {
                 "names": ['انسولين 70/30','ميكستارد'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج مرض السكري",
             "administration": "حقن تحت الجلد",
@@ -882,7 +882,7 @@ let drugToShow = ``;
             "activeConstituent": "vildagliptin",
             "alternatives": {
                 "names": ['شوجارلو بلس','فلداجلوز بلس','جليبتس بلس'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج مرض السكري",
             "administration": "قرص بعد الفطار",
@@ -898,7 +898,7 @@ let drugToShow = ``;
             "activeConstituent": "glimepiride 2mg + metformin 500mg",
             "alternatives": {
                 "names": ['جليميت فورت'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج مرض السكري",
             "administration": "قرص بعد الفطار",
@@ -914,7 +914,7 @@ let drugToShow = ``;
             "activeConstituent": "gliclazide 60mg",
             "alternatives": {
                 "names": ['دياميكرون 60','دياميديزين 60'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج مرض السكري",
             "administration": "قرص قبل الفطار",
@@ -930,7 +930,7 @@ let drugToShow = ``;
             "activeConstituent": "glimepiride 3mg",
             "alternatives": {
                 "names": ['اماريل 3','جليميبرايد 3'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج مرض السكري",
             "administration": "قرص قبل الفطار",
@@ -946,7 +946,7 @@ let drugToShow = ``;
             "activeConstituent": "metformin 500mg",
             "alternatives": {
                 "names": ['سيدوفاج 500','ميبافاج 500'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج مرض السكري",
             "administration": "قرص بعد الفطار",
@@ -962,7 +962,7 @@ let drugToShow = ``;
             "activeConstituent": "fluoxetine 20mg",
             "alternatives": {
                 "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "images" : []
             },
             "traditionalInfo": "علاج الاكتئاب",
             "administration": "قرص بعد الفطار",
@@ -977,8 +977,8 @@ let drugToShow = ``;
             "image": "imgs/futaban40.jpg",
             "activeConstituent": "pantoprazole",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج قرحة المعدة",
             "administration": "قرص قبل الفطار",
@@ -993,8 +993,8 @@ let drugToShow = ``;
             "image": "imgs/depo-pen.jpg",
             "activeConstituent": "penicillin",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "علاج العدوى",
             "administration": "حقن عضلي",
@@ -1009,8 +1009,8 @@ let drugToShow = ``;
             "image": "imgs/milga.jpg",
             "activeConstituent": "multivitamins",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "فيتامينات الاعصاب",
             "administration": "قرص بعد الفطار",
@@ -1025,8 +1025,8 @@ let drugToShow = ``;
             "image": "imgs/depovit.jpg",
             "activeConstituent": "vitamins",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "فيتامينات الاعصاب",
             "administration": "حقن عضلي",
@@ -1041,8 +1041,8 @@ let drugToShow = ``;
             "image": "imgs/thiotacid600.jpg",
             "activeConstituent": "thyotacide 600mg",
             "alternatives": {
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
-                "images" : ['imgs/sinopril-co.jpg','imgs/sinopril-co.jpg']
+                "names": [],
+                "images" : []
             },
             "traditionalInfo": "مضادات الاكسدة للحماية",
             "administration": "قرص بعد الفطار",
