@@ -742,12 +742,12 @@ let drugToShow = ``;
             "administration": "قرص تحت اللسان",
             "division1": "أدوية القلب",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "ماريفان 1",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "146",
             "image": "imgs/marevan1.jpg",
             "activeConstituent": "warfarin 1mg",
             "alternatives": {
@@ -763,7 +763,7 @@ let drugToShow = ``;
         {
             "drugName": "ماريفان 3",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "",
             "image": "imgs/marevan3.jpg",
             "activeConstituent": "warfarin 3mg",
             "alternatives": {
@@ -779,7 +779,7 @@ let drugToShow = ``;
         {
             "drugName": "ماريفان 5",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "4312",
             "image": "imgs/marevan5.jpg",
             "activeConstituent": "warfarin 5mg",
             "alternatives": {
@@ -795,7 +795,7 @@ let drugToShow = ``;
         {
             "drugName": "اسبوسيد (اسبرين)",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "305",
             "image": "imgs/aspocid.jpg",
             "activeConstituent": "aspirin",
             "alternatives": {
@@ -811,7 +811,7 @@ let drugToShow = ``;
         {
             "drugName": "فاكساتو 5",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "4999",
             "image": "imgs/vaxa5.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
@@ -828,7 +828,7 @@ let drugToShow = ``;
         {
             "drugName": "فاكساتو 15",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "4786",
             "image": "imgs/vaxa15.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
@@ -845,7 +845,7 @@ let drugToShow = ``;
         {
             "drugName": "فاكساتو 20",
             "drugNameEN": "",
-            "drugCode": "4878",
+            "drugCode": "4785",
             "image": "imgs/vaxa20.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
@@ -861,7 +861,7 @@ let drugToShow = ``;
         {
             "drugName": "انسولين",
             "drugNameEN": "insulin",
-            "drugCode": "4878",
+            "drugCode": "3202",
             "image": "imgs/insulin.jpg",
             "activeConstituent": "insulin",
             "alternatives": {
@@ -877,7 +877,7 @@ let drugToShow = ``;
         {
             "drugName": "شوجارلو بلس",
             "drugNameEN": "suglarlo - vildagliptin - jalbets",
-            "drugCode": "4878",
+            "drugCode": "3104",
             "image": "imgs/vildagluse.jpg",
             "activeConstituent": "vildagliptin",
             "alternatives": {
@@ -893,7 +893,7 @@ let drugToShow = ``;
         {
             "drugName": "جليميت فورت",
             "drugNameEN": "glimet fort",
-            "drugCode": "4878",
+            "drugCode": "",
             "image": "imgs/glimet-fort.jpg",
             "activeConstituent": "glimepiride 2mg + metformin 500mg",
             "alternatives": {
@@ -909,7 +909,7 @@ let drugToShow = ``;
         {
             "drugName": "دياميكرون 60",
             "drugNameEN": "diamicron 60",
-            "drugCode": "4878",
+            "drugCode": "3043",
             "image": "imgs/diamedizin.jpg",
             "activeConstituent": "gliclazide 60mg",
             "alternatives": {
@@ -925,7 +925,7 @@ let drugToShow = ``;
         {
             "drugName": "اماريل 3",
             "drugNameEN": "amaryl 3",
-            "drugCode": "4878",
+            "drugCode": "3046",
             "image": "imgs/amaryl3.jpg",
             "activeConstituent": "glimepiride 3mg",
             "alternatives": {
@@ -939,9 +939,9 @@ let drugToShow = ``;
             "availability": "not-available"
         },
         {
-            "drugName": "سيدوفاج 500",
+            "drugName": "سيدوفاج 500 او 850",
             "drugNameEN": "sydovag 500",
-            "drugCode": "4878",
+            "drugCode": "3470",
             "image": "imgs/cidophage500.jpg",
             "activeConstituent": "metformin 500mg",
             "alternatives": {
@@ -957,7 +957,7 @@ let drugToShow = ``;
         {
             "drugName": "مليتوفكس 10",
             "drugNameEN": "forfloxin - ambacosa - mletofex",
-            "drugCode": "4878",
+            "drugCode": "5410",
             "image": "imgs/forflozin10.jpg",
             "activeConstituent": "fluoxetine 20mg",
             "alternatives": {
@@ -973,7 +973,7 @@ let drugToShow = ``;
         {
             "drugName": "بانتوبي - بانتوبرازول",
             "drugNameEN": "pantobi - pantoprazole",
-            "drugCode": "4878",
+            "drugCode": "3413",
             "image": "imgs/futaban40.jpg",
             "activeConstituent": "pantoprazole",
             "alternatives": {
@@ -989,7 +989,7 @@ let drugToShow = ``;
         {
             "drugName": "حقنة البنسيلين",
             "drugNameEN": "penicillin injection",
-            "drugCode": "4878",
+            "drugCode": "",
             "image": "imgs/depo-pen.jpg",
             "activeConstituent": "penicillin",
             "alternatives": {
@@ -1005,7 +1005,7 @@ let drugToShow = ``;
         {
             "drugName": "الميلجا",
             "drugNameEN": "milga",
-            "drugCode": "4878",
+            "drugCode": "",
             "image": "imgs/milga.jpg",
             "activeConstituent": "multivitamins",
             "alternatives": {
@@ -1021,7 +1021,7 @@ let drugToShow = ``;
         {
             "drugName": "حقن الفيتامينات",
             "drugNameEN": "vitamins injection",
-            "drugCode": "4878",
+            "drugCode": "",
             "image": "imgs/depovit.jpg",
             "activeConstituent": "vitamins",
             "alternatives": {
@@ -1037,7 +1037,7 @@ let drugToShow = ``;
         {
             "drugName": "ثيوتاسيد 600",
             "drugNameEN": "thyotacide 600",
-            "drugCode": "4878",
+            "drugCode": "3834",
             "image": "imgs/thiotacid600.jpg",
             "activeConstituent": "thyotacide 600mg",
             "alternatives": {
