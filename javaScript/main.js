@@ -235,7 +235,7 @@ let drugToShow = ``;
         {
             "drugName": "تريتاس ماكس",
             "drugNameEN": "tritace max",
-            "drugCode": "4878",
+            "drugCode": "4372",
             "image": "imgs/tritacemax.jpg",
             "activeConstituent": "olmesartan 40mg",
             "alternatives": {
@@ -246,12 +246,12 @@ let drugToShow = ``;
             "administration": "قرص بعد الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "تريتاس 5",
             "drugNameEN": "tritace5",
-            "drugCode": "4878",
+            "drugCode": "69",
             "image": "imgs/tritace5.jpg",
             "activeConstituent": "olmesartan 5mg",
             "alternatives": {
@@ -262,12 +262,12 @@ let drugToShow = ``;
             "administration": "قرص بعد الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "تريتاس 2.5",
             "drugNameEN": "tritace 2.5",
-            "drugCode": "4878",
+            "drugCode": "68",
             "image": "imgs/tritace2-5.jpg",
             "activeConstituent": "olmesartan 2.5mg",
             "alternatives": {
@@ -299,7 +299,7 @@ let drugToShow = ``;
         {
             "drugName": "كاردكسين",
             "drugNameEN": "cardexin",
-            "drugCode": "4878",
+            "drugCode": "2970",
             "image": "imgs/cardixin.jpg",
             "activeConstituent": "diltiazem",
             "alternatives": {
@@ -315,7 +315,7 @@ let drugToShow = ``;
         {
             "drugName": "بيتاكور 80",
             "drugNameEN": "betacor 80",
-            "drugCode": "4878",
+            "drugCode": "822",
             "image": "imgs/betacor.jpg",
             "activeConstituent": "bisoprolol",
             "alternatives": {
@@ -331,7 +331,7 @@ let drugToShow = ``;
         {
             "drugName": "ادانكور 10",
             "drugNameEN": "adancor 10",
-            "drugCode": "4878",
+            "drugCode": "4325",
             "image": "imgs/adancor10.jpg",
             "activeConstituent": "adalat",
             "alternatives": {
@@ -342,12 +342,12 @@ let drugToShow = ``;
             "administration": "قرص بعد الفطار",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "رانديل 20",
             "drugNameEN": "randil 20",
-            "drugCode": "4878",
+            "drugCode": "3549",
             "image": "imgs/randil20.jpg",
             "activeConstituent": "nicorandil 20mg",
             "alternatives": {
@@ -363,7 +363,7 @@ let drugToShow = ``;
         {
             "drugName": "ترايكارديا",
             "drugNameEN": "triacardia - vastarel MR",
-            "drugCode": "4878",
+            "drugCode": "310",
             "image": "imgs/tricardia.jpg",
             "activeConstituent": "verapamil",
             "alternatives": {
@@ -379,7 +379,7 @@ let drugToShow = ``;
         {
             "drugName": "كوردارون 200",
             "drugNameEN": "cordaron 200",
-            "drugCode": "4878",
+            "drugCode": "64",
             "image": "imgs/cordarone.jpg",
             "activeConstituent": "amiodarone",
             "alternatives": {
@@ -395,7 +395,7 @@ let drugToShow = ``;
         {
             "drugName": "ايزوبتن 80",
             "drugNameEN": "isoptin 80",
-            "drugCode": "4878",
+            "drugCode": "3890",
             "image": "imgs/isoptin80.jpg",
             "activeConstituent": "isoptin",
             "alternatives": {
@@ -406,12 +406,12 @@ let drugToShow = ``;
             "administration": "قرص بعد الفطار",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية الضغط",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "اندرال 10",
             "drugNameEN": "inderal 10mg",
-            "drugCode": "4878",
+            "drugCode": "3594",
             "image": "imgs/inderal10.jpg",
             "activeConstituent": "propranolol",
             "alternatives": {
@@ -427,7 +427,7 @@ let drugToShow = ``;
         {
             "drugName": "الكابرس 5",
             "drugNameEN": "alkapress 5",
-            "drugCode": "4878",
+            "drugCode": "2557",
             "image": "imgs/alkapress5.jpg",
             "activeConstituent": "amlodipine 5mg",
             "alternatives": {
@@ -443,7 +443,7 @@ let drugToShow = ``;
         {
             "drugName": "كاندلكان 8",
             "drugNameEN": "candelkan 8",
-            "drugCode": "4878",
+            "drugCode": "2630",
             "image": "imgs/candelkan8.jpg",
             "activeConstituent": "candesartan 8mg",
             "alternatives": {
@@ -454,12 +454,12 @@ let drugToShow = ``;
             "administration": "قرص بعد الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "كاندلكان 16 بلس",
             "drugNameEN": "candelkan 16 plus",
-            "drugCode": "4878",
+            "drugCode": "4258",
             "image": "imgs/candelkan16plus.jpg",
             "activeConstituent": "candesartan 16mg",
             "alternatives": {
@@ -475,7 +475,7 @@ let drugToShow = ``;
         {
             "drugName": "سيلكونزوك 100",
             "drugNameEN": "selconzoc 100",
-            "drugCode": "4878",
+            "drugCode": "3484",
             "image": "imgs/selokenzoc100.jpg",
             "activeConstituent": "silodosin 100mg",
             "alternatives": {
@@ -491,7 +491,7 @@ let drugToShow = ``;
         {
             "drugName": "نيفيلوب 5",
             "drugNameEN": "nivilop 5",
-            "drugCode": "4878",
+            "drugCode": "4312",
             "image": "imgs/nevilop5.jpg",
             "activeConstituent": "amlodipine 5mg",
             "alternatives": {
@@ -502,12 +502,12 @@ let drugToShow = ``;
             "administration": "قرص بعد الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "نيفيلوب بلس",
             "drugNameEN": "nivilop plus",
-            "drugCode": "4878",
+            "drugCode": "4373",
             "image": "imgs/nevilop5plus.jpg",
             "activeConstituent": "amlodipine 5mg + valsartan 80mg",
             "alternatives": {
@@ -523,7 +523,7 @@ let drugToShow = ``;
         {
             "drugName": "ايفابرادين 5",
             "drugNameEN": "ivabradin 5",
-            "drugCode": "4878",
+            "drugCode": "4783",
             "image": "imgs/napibradine5.jpg",
             "activeConstituent": "ivabradine 5mg",
             "alternatives": {
@@ -539,7 +539,7 @@ let drugToShow = ``;
         {
             "drugName": "ايفبرادين 7.5",
             "drugNameEN": "ivabradine 7.5mg",
-            "drugCode": "4878",
+            "drugCode": "4788",
             "image": "imgs/napibradine75.jpg",
             "activeConstituent": "ivabradine 7.5mg",
             "alternatives": {
@@ -555,7 +555,7 @@ let drugToShow = ``;
         {
             "drugName": "اكساريتيك 20",
             "drugNameEN": "exaretic 20",
-            "drugCode": "4878",
+            "drugCode": "3853",
             "image": "imgs/exaretic20.jpg",
             "activeConstituent": "torasemide 20mg",
             "alternatives": {
@@ -571,7 +571,7 @@ let drugToShow = ``;
         {
             "drugName": "لازكس 40",
             "drugNameEN": "lasix 40mg",
-            "drugCode": "4878",
+            "drugCode": "3020",
             "image": "imgs/lasix40.jpg",
             "activeConstituent": "furosemide 40mg",
             "alternatives": {
@@ -587,7 +587,7 @@ let drugToShow = ``;
         {
             "drugName": "الداكتون 25",
             "drugNameEN": "aldactone 25mg",
-            "drugCode": "4878",
+            "drugCode": "3695",
             "image": "imgs/aldactone25.jpg",
             "activeConstituent": "spironolactone 25mg",
             "alternatives": {
@@ -603,7 +603,7 @@ let drugToShow = ``;
         {
             "drugName": "كارفالون 25",
             "drugNameEN": "carfalone 25mg",
-            "drugCode": "4878",
+            "drugCode": "4934",
             "image": "imgs/carfalone25.jpg",
             "activeConstituent": "carvedilol 25mg",
             "alternatives": {
@@ -619,7 +619,7 @@ let drugToShow = ``;
         {
             "drugName": "كوليروز 10",
             "drugNameEN": "Cholerose 10mg",
-            "drugCode": "4878",
+            "drugCode": "3655",
             "image": "imgs/cholerose10.jpg",
             "activeConstituent": "atorvastatin 10mg",
             "alternatives": {
