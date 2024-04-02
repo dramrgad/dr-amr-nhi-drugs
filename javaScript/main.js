@@ -1055,7 +1055,7 @@ let drugToShow = ``;
     ]
     ;
     // معلومة تاكيد تحميل البيانات
-    title.innerText = "اختار القسم لعرض معلومات الادوية"
+    title.innerText = "اختر القسم لعرض معلومات الادوية"
     // اظهار اسم القسم
     list.forEach(item => {
         item.addEventListener('click', e => {
