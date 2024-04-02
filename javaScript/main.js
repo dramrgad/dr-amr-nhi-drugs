@@ -1153,12 +1153,12 @@ detailsContainer.appendChild(removeBTN);
     addToFavorite(everyDrug);
     removeFromFavorite(everyDrug);
     toggleHideClass(oneDrug,everyDrug);
-
 }
 // create deatails div function
 function createDetails(theDrug){
     let drugOPJ = allData.find(opj => opj.drugName === `${theDrug.querySelector('.info h4').innerText}`);
-    console.log(drugOPJ.drugName)
+    // console.log(drugOPJ.alternatives);
+
 // creat fixed div to show more details
 let detailsDiv = document.createElement("div");
 detailsDiv.className = 'details';
