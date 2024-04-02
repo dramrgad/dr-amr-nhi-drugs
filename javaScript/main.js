@@ -47,8 +47,8 @@ let drugToShow = ``;
             "image": "imgs/concor5.jpg",
             "activeConstituent": "bisoprolol 5mg",
             "alternatives": {
-                "names": ['كونكور 5','بيزوكارد 5'],
-                "images" : []
+                "names": ['كونكور 5'],
+                "images" : ['imgs/concor5.jpg']
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص مرة يوميا على حسب ارشادات الطبيب",
@@ -64,7 +64,7 @@ let drugToShow = ``;
             "activeConstituent": "lisinopril 10mg",
             "alternatives": {
                 "names": ['سينوبريل 10'],
-                "images" : []
+                "images" : ['imgs/sinopril.jpg']
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص مرة يوميا على حسب ارشادات الطبيب",
@@ -80,10 +80,10 @@ let drugToShow = ``;
             "activeConstituent": "lisinopril 20mg + hydrochlorothiazide 25mg",
             "alternatives": {
                 "names": ['سينوبريل كو','ليزينوبريل كو'],
-                "images" : []
+                "images" : ['imgs/sinopril-co.jpg']
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -92,14 +92,14 @@ let drugToShow = ``;
             "drugName": "كارفيد 6.25",
             "drugNameEN": "carvid 6.25",
             "drugCode": "2661",
-            "image": "imgs/carvid.jpg",
+            "image": "imgs/carvid6.25.jpg",
             "activeConstituent": "carvedilol 6.25mg",
             "alternatives": {
-                "names": [],
-                "images" : []
+                "names": ['كارفيد 6.25','كارديلول 6.25'],
+                "images" : ['imgs/carvid6.25.jpg','imgs/cardilol6.25.jpg']
             },
-            "traditionalInfo": "علاج القلب",
-            "administration": "قرص بعد الفطار",
+            "traditionalInfo": "علاج الضغط",
+            "administration": "قرص مرة يوميا على حسب ارشادات الطبيب",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -111,11 +111,11 @@ let drugToShow = ``;
             "image": "imgs/carvipress.jpg",
             "activeConstituent": "carvidilol 12.5mg",
             "alternatives": {
-                "names": [],
-                "images" : []
+                "names": ["كارفيبريس 12.5"],
+                "images" : ["imgs/carvipress.jpg"]
             },
-            "traditionalInfo": "علاج القلب",
-            "administration": "قرص بعد الفطار",
+            "traditionalInfo": "علاج الضغط",
+            "administration": "قرص مرة يوميا على حسب ارشادات الطبيب",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -127,11 +127,11 @@ let drugToShow = ``;
             "image": "imgs/erastapex20.jpg",
             "activeConstituent": "omlesartan 20mg",
             "alternatives": {
-                "names": [],
-                "images" : []
+                "names": ["ايرستابكس 20"],
+                "images" : ["imgs/erastapex20.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص قبل الفطار",
+            "administration": "قرص بعد الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -143,11 +143,11 @@ let drugToShow = ``;
             "image": "imgs/erastapexco20.jpg",
             "activeConstituent": "omlesartan 5mg + amlodipine 5mg",
             "alternatives": {
-                "names": [],
-                "images" : []
+                "names": ["ايرستابكس كو 20/5"],
+                "images" : ["imgs/erastapexco20.jpg"]
             },
-            "traditionalInfo": "علاج قرحة المعدة",
-            "administration": "قرص قبل الفطار",
+            "traditionalInfo": "علاج الضغط",
+            "administration": "قرص بعد الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -157,12 +157,12 @@ let drugToShow = ``;
             "drugNameEN": "erastapex trio",
             "drugCode": "2727",
             "image": "imgs/erastapextrio.jpg",
-            "activeConstituent": "esomeprazole 20mg + amoxicillin 1000mg + clarithromycin 500mg",
+            "activeConstituent": "omlesartan 5mg + amlodipine 5mg + hydrochlorothiazide 25",
             "alternatives": {
-                "names": [],
-                "images" : []
+                "names": ["ايرستابكس تريو"],
+                "images" : ["imgs/erastapextrio.jpg"]
             },
-            "traditionalInfo": "علاج قرحة المعدة",
+            "traditionalInfo": "علاج الضغط",
             "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
@@ -173,12 +173,12 @@ let drugToShow = ``;
             "drugNameEN": "erastapex plus",
             "drugCode": "4770",
             "image": "imgs/erastapexplus.jpg",
-            "activeConstituent": "esomeprazole 40mg",
+            "activeConstituent": "omlesartan 5mg + hydrochlorothiazide 25",
             "alternatives": {
-                "names": [],
-                "images" : []
+                "names": ["ايرستابكس بلس"],
+                "images" : ["imgs/erastapexplus.jpg"]
             },
-            "traditionalInfo": "علاج قرحة المعدة",
+            "traditionalInfo": "علاج الضغط",
             "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
@@ -191,8 +191,8 @@ let drugToShow = ``;
             "image": "imgs/avivavasc5160.jpg",
             "activeConstituent": "amlodipine 5mg + valsartan 160mg",
             "alternatives": {
-                "names": ['افيفافاسك','بلوكاتنس','اكسفورج'],
-                "images" : []
+                "names": ['افيفافاسك 5/160','بلوكاتنس 5/160','اكسفورج 5/160'],
+                "images" : ["imgs/avivavasc5160.jpg" , "imgs/blokatens5160.jpg" , "imgs/exforg5160.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -207,8 +207,8 @@ let drugToShow = ``;
             "image": "imgs/avivavasc10160.jpg",
             "activeConstituent": "amlodipine 10mg + valsartan 160mg",
             "alternatives": {
-                "names": [],
-                "images" : []
+                "names": ['افيفافاسك 10/160','بلوكاتنس 10/160','اكسفورج 10/160'],
+                "images" : ["avivavasc 10/160" , 'imgs/blokatens10160.jpg', "imgs/exforg10160.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -221,10 +221,10 @@ let drugToShow = ``;
             "drugNameEN": "triacor 5/5",
             "drugCode": "3607",
             "image": "imgs/triacor55.jpg",
-            "activeConstituent": "amlodipine 5mg + perindopril 5mg",
+            "activeConstituent": "felodipine 5mg + ramipril 5mg",
             "alternatives": {
-                "names": [],
-                "images" : []
+                "names": ["ترياكور 5/5"],
+                "images" : ["imgs/triacor55.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
@@ -243,7 +243,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "not-available"
@@ -287,11 +287,11 @@ let drugToShow = ``;
             "image": "imgs/clopex.jpg",
             "activeConstituent": "clopidogrel 75mg",
             "alternatives": {
-                "names": [],
-                "images" : []
+                "names": ["كلوبكس 75","كلاتكس 75","بورجافكس 75","انجوسموث  75"],
+                "images" : ["imgs/clopex.jpg","imgs/clatex.jpg","imgs/borgavex.jpg","imgs/angosmooth.jpg"]
             },
-            "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
-            "administration": "قرص بعد الفطار",
+            "traditionalInfo": "علاج الجلطة والدعامة والقسطرة",
+            "administration": "قرص بعد الغداء",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
             "availability": "not-available"
@@ -307,7 +307,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج اضطرابات ضربات القلب",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص يومي ماعدا الجمعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
             "availability": "available"
@@ -338,7 +338,7 @@ let drugToShow = ``;
                 "names": [],
                 "images" : []
             },
-            "traditionalInfo": "علاج الضغط",
+            "traditionalInfo": "علاج اضطرابات ضربات القلب",
             "administration": "قرص بعد الفطار",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
@@ -354,7 +354,7 @@ let drugToShow = ``;
                 "names": [],
                 "images" : []
             },
-            "traditionalInfo": "علاج الضغط",
+            "traditionalInfo": "علاج اضطرابات ضربات القلب",
             "administration": "قرص بعد الفطار",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
@@ -370,7 +370,7 @@ let drugToShow = ``;
                 "names": ['ترايكارديا','ميتاكارديا','فاستاريل ام ار'],
                 "images" : []
             },
-            "traditionalInfo": "علاج القلب",
+            "traditionalInfo": "علاج اضطرابات ضربات القلب",
             "administration": "قرص بعد الفطار",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
@@ -415,8 +415,8 @@ let drugToShow = ``;
             "image": "imgs/inderal10.jpg",
             "activeConstituent": "propranolol",
             "alternatives": {
-                "names": [],
-                "images" : []
+                "names": ['اندرال 10'],
+                "images" : ['imgs/inderal10.jpg']
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع وضربات القلب",
             "administration": "قرص بعد الفطار",
