@@ -841,7 +841,7 @@ let drugToShow = ``;
             "administration": "قرص بعد الفطار",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
-            "availability": "not-available"
+            "availability": "available"
         },
         
         {
@@ -1191,8 +1191,6 @@ let h4Text = document.createTextNode('اسماء البدائل');
 infoDivH4.appendChild(h4Text);
 let infoDivP = document.createElement('p');
 let pText = document.createTextNode(`${drugOPJ.alternatives.names.join(" - ")}`);
-// let pText = document.createTextNode(`${drugOPJ.drugName}`);
-// let pText = document.createTextNode('كلوبكس - كلاتكس - انجيوفوكس - بلافيكارد');
 infoDivP.appendChild(pText);
 
 infoDiv.appendChild(infoDivH4);
