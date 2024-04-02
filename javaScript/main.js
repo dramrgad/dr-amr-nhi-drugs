@@ -56,7 +56,7 @@ let drugToShow = ``;
             "administration": "قرص مرة يوميا على حسب ارشادات الطبيب",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "سينوبريل 10",
