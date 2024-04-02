@@ -1156,6 +1156,7 @@ detailsContainer.appendChild(removeBTN);
 // create deatails div function
 function createDetails(theDrug){
     let drugOPJ = allData.find(opj => opj.drugName === `${theDrug.querySelector('.info h4').innerText}`);
+    console.log(drugOPJ.drugName)
 // creat fixed div to show more details
 let detailsDiv = document.createElement("div");
 detailsDiv.className = 'details';
@@ -1169,7 +1170,8 @@ detailsDiv.appendChild(closebtn);
 
 // creat main h3
 let mainh3 = document.createElement('h3');
-let mainh3Text = document.createTextNode('معلومات عن الدواء - والبدائل');
+let mainh3Text = document.createTextNode(drugOPJ.drugName);
+// let mainh3Text = document.createTextNode('معلومات عن الدواء - والبدائل');
 mainh3.appendChild(mainh3Text);
 detailsDiv.appendChild(mainh3);
 
