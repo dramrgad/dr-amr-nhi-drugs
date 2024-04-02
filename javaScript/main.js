@@ -1116,6 +1116,11 @@ function getDrugs(oneDrug){
     // creat div container for details
     let detailsContainer = document.createElement('div');
     detailsContainer.className = 'details-container';
+    // creat available button
+    let drugAviliableBTN = document.createElement('span');
+    drugAviliableBTN.className = `availability ${oneDrug.availability}`;
+    // drugAviliableBTN.appendChild(document.createTextNode('متوفر'));
+    detailsContainer.appendChild(drugAviliableBTN);
     // creat span for more details
     let moreDetails = document.createElement('span');
     moreDetails.className = 'more-details';
