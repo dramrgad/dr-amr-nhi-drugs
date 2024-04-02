@@ -210,7 +210,7 @@ let drugToShow = ``;
             "activeConstituent": "amlodipine 10mg + valsartan 160mg",
             "alternatives": {
                 "names": ['افيفافاسك 10/160','بلوكاتنس 10/160','اكسفورج 10/160'],
-                "images" : ["avivavasc 10/160" , 'imgs/blokatens10160.jpg', "imgs/exforg10160.jpg"]
+                "images" : ["imgs/avivavasc10160.jpg" , 'imgs/blokatens10160.jpg', "imgs/exforg10160.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
             "administration": "قرص بعد الفطار",
