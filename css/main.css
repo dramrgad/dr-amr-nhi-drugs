@@ -402,3 +402,17 @@ height: 200px;
 /* max-width: 100%;
 max-height: 100%; */
 }
+.drug-item.heart-div{
+  position: relative;
+}
+.drug-item.heart-div::after{
+  content: "\f21e";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: red;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translate(-50%, -50%);
+}

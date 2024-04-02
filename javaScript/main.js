@@ -10,6 +10,8 @@ function creatDivisions(divs){
         liList += `<li class="drug-item">${li}</li>`
     })
     ulList.innerHTML = liList;
+    let allList = document.querySelectorAll('li.drug-item');
+    allList[8].classList.add('heart-div');
 }
 creatDivisions(dugDivision);
 // selectors
