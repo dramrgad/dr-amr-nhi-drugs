@@ -157,11 +157,10 @@ padding: 0 10px;
 .drugs-cards .every-drug .favorite,
 .drugs-cards .every-drug .remove{
     display: inline-block;
-    background-color: black;
-    color: white;
-    padding: 3px 0;
+    background-color: #E3E3E3;
+    /* color: white; */
+    padding: 5px 0;
     border-radius: 5px;
-    width: 48%;
     font-weight: bold;
     cursor: pointer;
 }
@@ -181,7 +180,7 @@ padding: 0 10px;
     margin: 10px 0;
 }
 .drugs-cards .every-drug .info .details-container span{
-    width: 80%;
+    width: 70%;
 }
 .availability.available::after{
     content: "متوفر";
@@ -200,9 +199,6 @@ padding: 0 10px;
     display: block;
     border-radius: 5px;
     padding: 2px 0;
-}
-.drugs-cards .every-drug .favorite{
-    background-color: #225f1e;
 }
 .drugs-cards .every-drug .favorite.hide{
     display: none;
