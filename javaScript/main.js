@@ -1288,6 +1288,11 @@ function getAlternativesImages(divToAppend,drugToFetch){
     // creat slide show container
     let slideShow = document.createElement('div');
     slideShow.className = 'slide-show';
+    // create slide show title
+    let slideShowTitle = document.createElement('h5');
+    slideShowTitle.className = 'slide-title'
+    slideShowTitle.appendChild(document.createTextNode('قد يتوفر بأي من هذه الأشكال'))
+    slideShow.appendChild(slideShowTitle);
     // create arrow spans
     let rightArrow = document.createElement('i');
     rightArrow.className = 'right-arrow fa-solid fa-chevron-right'
@@ -1321,6 +1326,7 @@ function getAlternativesImages(divToAppend,drugToFetch){
         slideShow.appendChild(alternativDrugDiv);
     }
     divToAppend.appendChild(slideShow);
+    console.log(divToAppend)
     
 }
 
