@@ -55,7 +55,7 @@ const allData = [
                 "images" : ['imgs/concor5.jpg']
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص مرة يوميا على حسب ارشادات الطبيب",
+            "administration": "قرص قبل الفطار وفي حالة وجود علاج ضغط اخر تصبح الجرعة من الكونكور قرص مساءا وعلاج الضغط الاخر صباحا",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -71,7 +71,7 @@ const allData = [
                 "images" : ['imgs/sinopril.jpg']
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص مرة يوميا على حسب ارشادات الطبيب",
+            "administration": "قرص مرة يوميا قبل الفطار على حسب ارشادات الطبيب",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -135,7 +135,7 @@ const allData = [
                 "images" : ["imgs/erastapex20.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -151,7 +151,7 @@ const allData = [
                 "images" : ["imgs/erastapexco20.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -231,7 +231,7 @@ const allData = [
                 "images" : ["imgs/triacor55.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -263,7 +263,7 @@ const allData = [
                 "images" : []
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "not-available"
@@ -279,7 +279,7 @@ const allData = [
                 "images" : []
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "not-available"
@@ -813,7 +813,7 @@ const allData = [
             "availability": "available"
         },
         {
-            "drugName": "فاكساتو 5",
+            "drugName": "ابيكسبان 5",
             "drugNameEN": "",
             "drugCode": "4999",
             "image": "imgs/vaxa5.jpg",
@@ -823,7 +823,7 @@ const allData = [
                 "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
-            "administration": "قرص بعد الغداء",
+            "administration": "قرص كل 12 ساعة بعد الاكل",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
             "availability": "not-available"
@@ -889,7 +889,7 @@ const allData = [
                 "images" : []
             },
             "traditionalInfo": "علاج مرض السكري",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الاكل مباشرة مرة واحدة او مرتين طبقا لحالة المريض",
             "division1": "ادوية السكر",
             "division2": "",
             "availability": "not-available"
@@ -985,7 +985,7 @@ const allData = [
                 "images" : []
             },
             "traditionalInfo": "علاج قرحة المعدة",
-            "administration": "قرص قبل الفطار بربع ساعة",
+            "administration": "قرص قبل الفطار بنصف ساعة",
             "division1": "ادوية اخرى",
             "division2": "",
             "availability": "not-available"
