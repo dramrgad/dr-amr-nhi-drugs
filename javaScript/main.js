@@ -12,6 +12,7 @@ function creatDivisions(divs){
     ulList.innerHTML = liList;
     let allList = document.querySelectorAll('li.drug-item');
     allList[8].classList.add('heart-div');
+    allList[allList.length - 1].classList.add('my-own');
 }
 creatDivisions(dugDivision);
 // selectors
