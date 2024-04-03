@@ -309,7 +309,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج اضطرابات ضربات القلب",
-            "administration": "قرص يومي ماعدا الجمعة",
+            "administration": "قرص يوميا ماعدا الجمعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
             "availability": "available"
@@ -1205,7 +1205,7 @@ recomendedUseDiv.className = 'recomended-use';
 
 // create info h4 and p
 let recomendedUseDivH4 = document.createElement('h4');
-let recomendedUseDivh4Text = document.createTextNode('الاستحدام الشائع');
+let recomendedUseDivh4Text = document.createTextNode('الاستخدام الشائع');
 recomendedUseDivH4.appendChild(recomendedUseDivh4Text);
 let recomendedUseDivP = document.createElement('p');
 let recomendedUseDivpText = document.createTextNode(`${drugOPJ.administration}`);
@@ -1284,10 +1284,27 @@ function toggleHideClass(oneDrug,everyDrug){
 }
 // function to get alternatives images
 function getAlternativesImages(divToAppend,drugToFetch){
+    if(drugToFetch.alternatives.images.length > 1){
+    // creat slide show container
+    let slideShow = document.createElement('div');
+    slideShow.className = 'slide-show';
+    // create arrow spans
+    let rightArrow = document.createElement('i');
+    rightArrow.className = 'right-arrow fa-solid fa-chevron-right'
+
+    let leftArrow = document.createElement('i');
+    leftArrow.className = 'left-arrow fa-solid fa-chevron-left'
+
+    slideShow.appendChild(rightArrow);
+    slideShow.appendChild(leftArrow);
     for(let i = 0; i < drugToFetch.alternatives.images.length ; i++){
+        // create div drug container
         let alternativDrugDiv = document.createElement('div');
         alternativDrugDiv.className = 'alternative-drug';
-        
+        if(i === 0){
+        alternativDrugDiv.className = 'alternative-drug show';
+        }
+        // create image to show
         let imgAlternative = document.createElement('img');
         imgAlternative.src = `${drugToFetch.alternatives.images[i]}`
         alternativDrugDiv.appendChild(imgAlternative);
@@ -1297,11 +1314,14 @@ function getAlternativesImages(divToAppend,drugToFetch){
         alternativeDrugName.className = 'alt-drug-name';
         let alternativeDrugNameText = document.createTextNode(`${drugToFetch.alternatives.names[i]}`);
         alternativeDrugName.appendChild(alternativeDrugNameText);
-        
         // append to details div
         alternativDrugDiv.appendChild(imgAlternative);
         alternativDrugDiv.appendChild(alternativeDrugName);
-        divToAppend.appendChild(alternativDrugDiv);
+        // append to slide show container
+        slideShow.appendChild(alternativDrugDiv);
+    }
+    divToAppend.appendChild(slideShow);
+    
 }
 
 }
