@@ -1194,12 +1194,14 @@ infoDiv.className = 'info';
 let infoDivH4 = document.createElement('h4');
 let h4Text = document.createTextNode('اسماء البدائل');
 infoDivH4.appendChild(h4Text);
-let infoDivP = document.createElement('p');
-let pText = document.createTextNode(`${drugOPJ.alternatives.names.join(" - ")}`);
-infoDivP.appendChild(pText);
-
 infoDiv.appendChild(infoDivH4);
-infoDiv.appendChild(infoDivP);
+
+for(let i = 0; i < drugOPJ.alternatives.names.length;i++){
+  let infoDivP = document.createElement('p');
+  let pText = document.createTextNode(`${drugOPJ.alternatives.names[i]}`);
+  infoDivP.appendChild(pText);
+  infoDiv.appendChild(infoDivP);
+}
 // add info to the info-container
 infoContainer.appendChild(infoDiv);
 
