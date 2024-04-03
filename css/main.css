@@ -377,26 +377,47 @@ border-radius: 15px;
     max-width: 260px;
     margin: 10px auto;
     height: 400px;
+    margin-top: 50px;
 }
 .drugs-cards .every-drug .details .alt-imgs-container .slide-show .right-arrow,
 .drugs-cards .every-drug .details .alt-imgs-container .slide-show .left-arrow{
     color: var(--main-color1);
-    left: -50px;
     position: absolute;
-    top: 50%;
+    top: 25%;
     font-size: 30px;
     z-index: 2;
     transition: 0.2s;
     cursor: pointer;
     width: 30px;
 }
+.drugs-cards .every-drug .details .alt-imgs-container .slide-show .left-arrow{
+    left: -100px;
+}
 .drugs-cards .every-drug .details .alt-imgs-container .slide-show .right-arrow{
-    right: -50px;
+    right: -100px;
 }
 .drugs-cards .every-drug .details .alt-imgs-container .slide-show .right-arrow:hover,
 .drugs-cards .every-drug .details .alt-imgs-container .slide-show .left-arrow:hover{
     font-size: 35px;
 }
+/* .drugs-cards .every-drug .details .alt-imgs-container .slide-show img{
+    width: 100%;
+    /* height: 200px; */
+    /* border-radius: 8px; */
+    /* } */
+.drugs-cards .every-drug .details .alt-imgs-container .slide-show h5{
+    position: absolute;
+    top: -40px;
+    right: 0;
+    height: 30px;
+    width: 100%;
+    z-index: 3;
+    font-weight: bold;
+    background-color: var(--main-color2);
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: 1px solid var(--main-color1);
+    }
 .drugs-cards .every-drug .details .alt-imgs-container .alternative-drug{
     display: flex;
     flex-wrap: wrap;
@@ -417,17 +438,18 @@ border-radius: 15px;
     opacity: 100;
 }
 .drugs-cards .every-drug .details .alt-imgs-container .alternative-drug img{
-    width: 100%;
-    max-height: 70%;
+    /* width: 100%; */
+    max-height: 85%;
     border-radius: 10px;
 }
 .drugs-cards .every-drug .details .alt-imgs-container .alternative-drug .alt-drug-name{
     font-weight: bold;
     background-color: var(--main-color2);
-    padding: 5px 30px;
+    padding: 5px 31px;
     border-radius: 10px;
     border: 1px solid var(--main-color1);
-    margin-top: 5px;
+    margin: 0 auto;
+    width: 260px;
 }
 .drugs-cards .every-drug .name{
     font-size: 20px;
@@ -455,14 +477,3 @@ top: 50%;
 left: 15px;
 transform: translate(-50%, -50%);
 }
-.slide-show img{
-width: 100%;
-height: 200px;
-border-radius: 8px;
-}
-.slide-show h5{
-position: absolute;
-top: 0;
-right: 0;
-height: 30px;
-width: 100%;}
