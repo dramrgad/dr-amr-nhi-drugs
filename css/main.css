@@ -45,7 +45,6 @@ ul{
 }
 body{
     background-color: white;
-    scroll-behavior: smooth;
 }
 .container{
     margin: 0 100px;
@@ -432,7 +431,7 @@ border-radius: 15px;
 }
 @media (max-width: 470px) {
     .drugs-cards .every-drug .details .alt-imgs-container .alternative-drug{
-    width: 300px;
+    width: 80%;
     }
 }
 .drugs-cards .every-drug .details .alt-imgs-container .alternative-drug.show{

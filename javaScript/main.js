@@ -19,6 +19,7 @@ const list = document.querySelectorAll(".drug-item");
 const title = document.querySelector(".section-title");
 const drugsCards = document.querySelector(".drugs-cards");
 let drugToShow = ``;
+// let start = 0;
 // ارسال طلب تحميل البيانات
 // const drugData = new XMLHttpRequest();
 // // drugData.open("get","https://pastebin.com/raw/XRPkzFb3",true);
@@ -1291,6 +1292,7 @@ function getAlternativesImages(divToAppend,drugToFetch){
     // creat slide show container
     let slideShow = document.createElement('div');
     slideShow.className = 'slide-show';
+    slideShow.dataset.startNumber = '0';
     // create slide show title
     let slideShowTitle = document.createElement('h5');
     slideShowTitle.className = 'slide-title'
@@ -1298,10 +1300,12 @@ function getAlternativesImages(divToAppend,drugToFetch){
     slideShow.appendChild(slideShowTitle);
     // create arrow spans
     let rightArrow = document.createElement('i');
-    rightArrow.className = 'right-arrow fa-solid fa-chevron-right'
+    rightArrow.className = 'right-arrow fa-solid fa-chevron-right';
+    rightArrow.addEventListener('click',(e)=>{nextSlideShow(e)});
 
     let leftArrow = document.createElement('i');
-    leftArrow.className = 'left-arrow fa-solid fa-chevron-left'
+    leftArrow.className = 'left-arrow fa-solid fa-chevron-left';
+    leftArrow.addEventListener('click',(e)=>{preSlideShow(e)});
 
     slideShow.appendChild(rightArrow);
     slideShow.appendChild(leftArrow);
@@ -1331,5 +1335,33 @@ function getAlternativesImages(divToAppend,drugToFetch){
     divToAppend.appendChild(slideShow);
     
 }
+// slideShow(divToAppend);
 
+}
+// Next Arrow Slide show Function
+function nextSlideShow(e){
+    let allAlternatives = e.currentTarget.parentElement.querySelectorAll('.alternative-drug');
+    if(e.currentTarget.parentElement.dataset.startNumber >= allAlternatives.length - 1){
+        e.currentTarget.parentElement.dataset.startNumber = -1;
+    }
+    let start = parseInt(e.currentTarget.parentElement.dataset.startNumber) + 1;
+    allAlternatives.forEach((item) => {
+        item.classList.remove('show');
+    })
+    allAlternatives[start].classList.add('show');
+    e.currentTarget.parentElement.dataset.startNumber = start;
+}
+
+// Previous Arrow Slide show Function
+function preSlideShow(e){
+    let allAlternatives = e.currentTarget.parentElement.querySelectorAll('.alternative-drug');
+    if(e.currentTarget.parentElement.dataset.startNumber <= 0){
+        e.currentTarget.parentElement.dataset.startNumber = allAlternatives.length;
+    }
+    let start = parseInt(e.currentTarget.parentElement.dataset.startNumber) - 1;
+    allAlternatives.forEach((item) => {
+        item.classList.remove('show');
+    })
+    allAlternatives[start].classList.add('show');
+    e.currentTarget.parentElement.dataset.startNumber = start;
 }
