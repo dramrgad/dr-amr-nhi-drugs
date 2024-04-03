@@ -263,7 +263,7 @@ const allData = [
                 "images" : []
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص قبل الفطار",
+            "administration": "قرص مرة يوميا وعلى حسب ارشادات الطبيب",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "not-available"
@@ -279,7 +279,7 @@ const allData = [
                 "images" : []
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص قبل الفطار",
+            "administration": "قرص مرة يوميا وعلى حسب ارشادات الطبيب",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "not-available"
@@ -342,8 +342,8 @@ const allData = [
                 "names": [],
                 "images" : []
             },
-            "traditionalInfo": "علاج اضطرابات ضربات القلب",
-            "administration": "قرص مرة يوميا وحسب ارشادات الطبيب",
+            "traditionalInfo": "علاج الذبحة الصدرية",
+            "administration": "قرص كل 12 ساعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
             "availability": "not-available"
@@ -358,8 +358,8 @@ const allData = [
                 "names": [],
                 "images" : []
             },
-            "traditionalInfo": "علاج اضطرابات ضربات القلب",
-            "administration": "قرص مرة يوميا وحسب ارشادات الطبيب",
+            "traditionalInfo": "علاج الذبحة الصدرية",
+            "administration": "قرص كل 12 ساعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
             "availability": "available"
@@ -374,7 +374,7 @@ const allData = [
                 "names": ['ترايكارديا','ميتاكارديا','فاستاريل ام ار'],
                 "images" : []
             },
-            "traditionalInfo": "علاج اضطرابات ضربات القلب",
+            "traditionalInfo": "علاج الذبحة الصدرية",
             "administration": "قرص كل 12 ساعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
@@ -487,7 +487,7 @@ const allData = [
                 "images" : []
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الفطار وفي حالة وجود علاج ضغط اخر تصبح الجرعة من الكونكور قرص مساءا وعلاج الضغط الاخر صباحا",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
