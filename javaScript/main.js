@@ -1078,6 +1078,8 @@ let drugToShow = ``;
                 getDrugs(drug);
             }
         })
+    
+    title.scrollIntoView({ behavior: 'smooth'})
     })
 });
 // Start Functions
@@ -1326,7 +1328,6 @@ function getAlternativesImages(divToAppend,drugToFetch){
         slideShow.appendChild(alternativDrugDiv);
     }
     divToAppend.appendChild(slideShow);
-    console.log(divToAppend)
     
 }
 
