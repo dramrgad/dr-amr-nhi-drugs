@@ -1078,8 +1078,9 @@ let drugToShow = ``;
                 getDrugs(drug);
             }
         })
-    
-    title.scrollIntoView({ behavior: 'smooth'})
+    setTimeout(()=>{
+        title.scrollIntoView({ behavior: 'smooth'})
+    },500)
     })
 });
 // Start Functions
