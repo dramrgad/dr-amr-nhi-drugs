@@ -27,7 +27,7 @@ let drugToShow = ``;
 // drugData.open("get","json/drugs.json",true);
 // drugData.send();
     // const allData = JSON.parse(drugData.responseText);
-    const allData = [
+const allData = [
         {
             "drugName": "بيزوكارد 5 بلس",
             "drugNameEN": "bisocard 5 plus",
@@ -199,7 +199,7 @@ let drugToShow = ``;
                 "images" : ["imgs/avivavasc5160.jpg" , "imgs/blokatens5160.jpg" , "imgs/exforg5160.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "not-available"
@@ -215,7 +215,7 @@ let drugToShow = ``;
                 "images" : ["imgs/avivavasc10160.jpg" , 'imgs/blokatens10160.jpg', "imgs/exforg10160.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "not-available"
@@ -327,7 +327,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج الضغط واضطرابات ضربات القلب",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص كل 12 ساعة وحسب ارشادات الطبيب",
             "division1": "ادوية الضغط",
             "division2": "ادوية القلب والدعامة",
             "availability": "available"
@@ -343,7 +343,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج اضطرابات ضربات القلب",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص مرة يوميا وحسب ارشادات الطبيب",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
             "availability": "not-available"
@@ -359,7 +359,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج اضطرابات ضربات القلب",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص مرة يوميا وحسب ارشادات الطبيب",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
             "availability": "available"
@@ -375,7 +375,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج اضطرابات ضربات القلب",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص كل 12 ساعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
             "availability": "available"
@@ -391,7 +391,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج اضطرابات ضربات القلب",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص مرة يوميا وحسب ارشادات الطبيب",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
             "availability": "available"
@@ -407,7 +407,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج ارتفاع ضغط الدم",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص كل 12 ساعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية الضغط",
             "availability": "available"
@@ -423,7 +423,7 @@ let drugToShow = ``;
                 "images" : ['imgs/inderal10.jpg']
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع وضربات القلب",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص كل 12 ساعة وحسب ارشادات الطبيب",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية الضغط",
             "availability": "not-available"
@@ -455,7 +455,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص كل 12 ساعة",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -471,7 +471,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "not-available"
@@ -519,7 +519,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص قبا الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "not-available"
@@ -535,7 +535,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج ضربات القلب",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص كل 12 ساعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
             "availability": "not-available"
@@ -551,7 +551,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج ضربات القلب",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص كل 12 ساعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
             "availability": "not-available"
@@ -726,14 +726,14 @@ let drugToShow = ``;
                 "names": [],
                 "images" : []
             },
-            "traditionalInfo": "علاج الاكتئاب والقلق",
-            "administration": "قرص قبل النوم",
+            "traditionalInfo": "علاج ازمات القلب",
+            "administration": "قرص تحت اللسان عند اللزوم، بعد مرور 5 دقايق بدون تحسن قرص ثاني، بعد مرور 5 دقايق اخري بدون تحسن القرص الثالث تحت اللسان",
             "division1": "ادوية اخرى",
             "division2": "",
             "availability": "available"
         },
         {
-            "drugName": "نتروماك 2.5 - Nitromac 2.5",
+            "drugName": "نتروماك 2.5",
             "drugNameEN": "",
             "drugCode": "3058",
             "image": "imgs/nitromak.jpg",
@@ -743,8 +743,8 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج ألم الصدر وانقباض الشرايين القلبية",
-            "administration": "قرص تحت اللسان",
-            "division1": "أدوية القلب",
+            "administration": "كبسولة الساعة ال 9 صباحا والساعة ال 5 المغرب، مهم وجود 8 ساعات فارق ليس اقل بكثير ولا اكثر بكثير",
+            "division1": "ادوية القلب والدعامة",
             "division2": "",
             "availability": "not-available"
         },
@@ -759,7 +759,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
-            "administration": "قرص بعد الفطار",
+            "administration": "الجرعة طبقا لتحليل السيولة",
             "division1": "ادوية السيولة",
             "division2": "",
             "availability": "available"
@@ -775,7 +775,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
-            "administration": "قرص بعد الفطار",
+            "administration": "الجرعة طبقا لتحليل السيولة",
             "division1": "ادوية السيولة",
             "division2": "",
             "availability": "not-available"
@@ -791,7 +791,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
-            "administration": "قرص بعد الفطار",
+            "administration": "الجرعة طبقا لتحليل السيولة",
             "division1": "ادوية السيولة",
             "division2": "",
             "availability": "available"
@@ -806,8 +806,8 @@ let drugToShow = ``;
                 "names": [],
                 "images" : []
             },
-            "traditionalInfo": "علاج ارتفاع ضغط الدم",
-            "administration": "قرص بعد الفطار",
+            "traditionalInfo": "علاج السيولة",
+            "administration": "2 قرص بعد الغداء",
             "division1": "ادوية السيولة",
             "division2": "",
             "availability": "available"
@@ -823,7 +823,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص بعد الغداء",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
             "availability": "not-available"
@@ -840,7 +840,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص بعد الغداء",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
             "availability": "available"
@@ -857,7 +857,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص بعد الغداء",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
             "availability": "not-available"
@@ -873,7 +873,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج مرض السكري",
-            "administration": "حقن تحت الجلد",
+            "administration": "طبقا لكل مريض والاشهر 30 وحدة صباحا و 15 وحدة مساءا",
             "division1": "ادوية السكر",
             "division2": "",
             "availability": "not-available"
@@ -953,7 +953,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج مرض السكري",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص بعد الفطار والغداء",
             "division1": "ادوية السكر",
             "division2": "",
             "availability": "not-available"
@@ -968,8 +968,8 @@ let drugToShow = ``;
                 "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
                 "images" : []
             },
-            "traditionalInfo": "علاج الاكتئاب",
-            "administration": "قرص بعد الفطار",
+            "traditionalInfo": "علاج السكر والقلب",
+            "administration": "قرص قبل الفطار",
             "division1": "ادوية السكر",
             "division2": "ادوية القلب والدعامة",
             "availability": "not-available"
@@ -985,7 +985,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "علاج قرحة المعدة",
-            "administration": "قرص قبل الفطار",
+            "administration": "قرص قبل الفطار بربع ساعة",
             "division1": "ادوية اخرى",
             "division2": "",
             "availability": "not-available"
@@ -1000,8 +1000,8 @@ let drugToShow = ``;
                 "names": [],
                 "images" : []
             },
-            "traditionalInfo": "علاج العدوى",
-            "administration": "حقن عضلي",
+            "traditionalInfo": "علاج الحمى الروماتيزمية",
+            "administration": "حقنة كل 15 يوم او 21 يوم او شهر على حسب حالة المريض",
             "division1": "ادوية اخرى",
             "division2": "",
             "availability": "not-available"
@@ -1017,7 +1017,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "فيتامينات الاعصاب",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص بعد الغداء",
             "division1": "ادوية اخرى",
             "division2": "",
             "availability": "not-available"
@@ -1033,7 +1033,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "فيتامينات الاعصاب",
-            "administration": "حقن عضلي",
+            "administration": "حقنة كل 3 ايام او كل اسبوع",
             "division1": "ادوية اخرى",
             "division2": "",
             "availability": "not-available"
@@ -1049,7 +1049,7 @@ let drugToShow = ``;
                 "images" : []
             },
             "traditionalInfo": "مضادات الاكسدة للحماية",
-            "administration": "قرص بعد الفطار",
+            "administration": "قرص بعد الغداء",
             "division1": "ادوية اخرى",
             "division2": "",
             "availability": "not-available"
