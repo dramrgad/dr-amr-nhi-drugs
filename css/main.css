@@ -409,8 +409,9 @@ border-radius: 15px;
     transition: 0.5s ease;
 }
 @media (max-width: 470px) {
-  .drugs-cards .every-drug .details .alt-imgs-container .alternative-drug{
+    .drugs-cards .every-drug .details .alt-imgs-container .alternative-drug{
     width: 300px;
+    }
 }
 .drugs-cards .every-drug .details .alt-imgs-container .alternative-drug.show{
     opacity: 100;
@@ -444,15 +445,15 @@ border-radius: 8px;
   position: relative;
 }
 .drug-item.heart-div::after{
-  content: "\f21e";
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  color: red;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  transform: translate(-50%, -50%);
+content: "\f21e";
+font-family: 'Font Awesome 5 Free';
+font-weight: 900;
+color: red;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 15px;
+transform: translate(-50%, -50%);
 }
 .slide-show img{
 width: 100%;
@@ -460,9 +461,8 @@ height: 200px;
 border-radius: 8px;
 }
 .slide-show h5{
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 30px;
-  width: 100%;
-}
+position: absolute;
+top: 0;
+right: 0;
+height: 30px;
+width: 100%;}
