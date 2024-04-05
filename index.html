@@ -37,6 +37,9 @@
         </div>
     </div>
     <section class="display-drugs" id="display-drugs">
+        <div class="search-div">
+            <input type="text" class="search" placeholder="اكتب اسم الدواء او جزء منه عربي او انجليزي">
+        </div>
         <h2 class="section-title">جاري التحميل ... </h2>
         <div class="drugs-cards">
         </div>
@@ -52,6 +55,56 @@
         </div>
       </div>
     </div>
+    <template class="every-drug-template">
+        <div class="every-drug not-available">
+            <img class="drug-img" src="imgs/clopex.jpg">
+            <div class="info">
+                <h4 class="name">كلوبكس 75</h4>
+                <h6 class="used-for">علاج الجلطة والدعامة والقسطرة</h6>
+                <div class="details-container"><span class="availability not-available"></span><span class="more-details">عرض معلومات الدواء</span>
+                    <span class="favorite">اضافة الى ادويتي</span>
+                    <span class="remove hide">حذف من ادويتي</span>
+                </div>
+            </div>
+                <div class="details">
+                    <button class="close">اغلاق</button>
+                    <h3>كلوبكس 75</h3>
+                    <div class="info-container">
+                    <div class="info">
+                    <h4>اسماء البدائل</h4>
+                    <!-- <p>كلوبكس 75</p><p>كلاتكس 75</p><p>بورجافكس 75</p><p>انجوسموث  75</p> -->
+                </div>
+                <div class="recomended-use">
+                    <h4>الاستخدام الشائع</h4>
+                    <p>قرص بعد الغداء</p>
+                </div>
+            </div>
+                    <div class="alt-imgs-container">
+                    <div class="slide-show" data-start-number="0">
+                    <h5 class="slide-title">قد يتوفر بأي من هذه الأشكال</h5>
+                    <i class="right-arrow fa-solid fa-chevron-right"></i>
+                    <i class="left-arrow fa-solid fa-chevron-left"></i>
+                    <div class="alternative-drug show">
+                        <img src="imgs/clopex.jpg">
+                        <span class="alt-drug-name">كلوبكس 75</span>
+                    </div>
+                    <div class="alternative-drug">
+                        <img src="imgs/clatex.jpg">
+                        <span class="alt-drug-name">كلاتكس 75</span>
+                    </div>
+                    <div class="alternative-drug">
+                        <img src="imgs/borgavex.jpg">
+                        <span class="alt-drug-name">بورجافكس 75</span>
+                    </div>
+                    <div class="alternative-drug">
+                        <img src="imgs/angosmooth.jpg">
+                        <span class="alt-drug-name">انجوسموث  75</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </template>
     <script src="javaScript/main.js"></script>
 </body>
 </html>
