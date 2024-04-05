@@ -126,7 +126,7 @@ padding: 0 10px;
 .display-drugs .section-title{
     display: block;
     width: 100%;
-    margin: 50px 0 20px;
+    margin: 30px 0 20px;
     text-align: center;
 }
 .drugs-cards{
@@ -515,4 +515,39 @@ transform: translate(-50%, -50%);
 .whatsapp-channel i{
   font-size: 50px;
   color: #25d366;
+}
+.hide-drug{
+    display: none;
+}
+.search-div{
+    text-align: center;
+}
+.search {
+    padding: 15px;
+    outline: none;
+    width: 70%;
+    max-width: 500px;
+    color: var(--main-color1);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+
+}
+.search:focus{
+    outline: 1px solid var(--main-color1);
+}
+@media (max-width:550px) {
+    .search::placeholder{
+        font-size: 14px;
+    }
+}
+@media (max-width:450px) {
+    .search::placeholder{
+        font-size: 10px;
+    }
+}
+@media (max-width:350px) {
+    .search::placeholder{
+        font-size: 8px;
+    }
 }
