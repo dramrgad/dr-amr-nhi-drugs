@@ -380,10 +380,10 @@ border-radius: 15px;
     padding: 5px 0;
 }
 @media (max-width:700px) {
- .drugs-cards .every-drug .details .info-container .info h4 {
+    .drugs-cards .every-drug .details .info-container .info h4 {
     font-size: 14px;
-  }
-.drugs-cards .every-drug .details .info-container .info p{
+}
+    .drugs-cards .every-drug .details .info-container .info p{
     font-size: 14px;
 }
 }
@@ -525,7 +525,7 @@ transform: translate(-50%, -50%);
 .search {
     padding: 15px;
     outline: none;
-    width: 70%;
+    width: 80%;
     max-width: 500px;
     color: var(--main-color1);
     font-size: 18px;
@@ -543,7 +543,7 @@ transform: translate(-50%, -50%);
 }
 @media (max-width:450px) {
     .search::placeholder{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 @media (max-width:350px) {

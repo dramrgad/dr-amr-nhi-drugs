@@ -35,6 +35,7 @@ let drugToShow = ``;
             everyDrug.className = `every-drug ${drug.availability}`;
             everyDrug.querySelector('.drug-img').src = drug.image
             everyDrug.querySelector('.info .name').textContent = drug.drugName;
+            everyDrug.querySelector('.info .name').dataset.ename = drug.drugNameEN;
             everyDrug.querySelector('.used-for').textContent = drug.traditionalInfo
              everyDrug.querySelector('.details-container .availability').className = `availability ${drug.availability}`;
             everyDrug.querySelector('.details h3').textContent = drug.drugName;
@@ -70,12 +71,13 @@ let drugToShow = ``;
     
         allDrugs.forEach(drug => {
             let searchText = "";
-            searchText += ` ${drug.querySelector('.info .name').textContent}`
+            searchText += ` ${drug.querySelector('.info .name').textContent.toLowerCase()}`;
+            searchText += ` ${drug.querySelector('.info .name').dataset.ename.toLowerCase()}`;
     drug.querySelectorAll('.info p').forEach(node =>{
         searchText += ` ${node.textContent}`;
     })
     
-            if(searchText.includes(searchBox.value)){
+            if(searchText.includes(searchBox.value.toLowerCase())){
                 drug.style.display = "block";
                 
             }
