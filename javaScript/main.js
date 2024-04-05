@@ -16,9 +16,11 @@ function creatDivisions(divs){
 }
 creatDivisions(dugDivision);
 // selectors
+const everydrugtemplate = document.querySelector('.every-drug-template').content;
 const list = document.querySelectorAll(".drug-item");
 const title = document.querySelector(".section-title");
 const drugsCards = document.querySelector(".drugs-cards");
+const searchBox = document.querySelector(".search");
 let drugToShow = ``;
 // let start = 0;
 // ارسال طلب تحميل البيانات
@@ -27,6 +29,65 @@ let drugToShow = ``;
 // drugData.open("get","json/drugs.json",true);
 // drugData.send();
     // const allData = JSON.parse(drugData.responseText);
+    function amrShowAll(allData){
+        allData.forEach(drug => {
+            let everyDrug = everydrugtemplate.cloneNode(true).children[0]
+            everyDrug.className = `every-drug ${drug.availability}`;
+            everyDrug.querySelector('.drug-img').src = drug.image
+            everyDrug.querySelector('.info .name').textContent = drug.drugName;
+            everyDrug.querySelector('.used-for').textContent = drug.traditionalInfo
+             everyDrug.querySelector('.details-container .availability').className = `availability ${drug.availability}`;
+            everyDrug.querySelector('.details h3').textContent = drug.drugName;
+            let allAlternative = everyDrug.querySelector('.details .info-container .info');
+            for(let i = 0; i < drug.alternatives.names.length; i++){
+                let altP = document.createElement('p');    altP.appendChild(document.createTextNode(drug.alternatives.names[i]))
+                allAlternative.appendChild(altP)
+            }
+            everyDrug.querySelector('.details .info-container .recomended-use p').textContent = drug.administration
+            
+    
+    
+            document.querySelector('.drugs-cards').appendChild(everyDrug)
+        }) 
+    }
+
+
+
+
+
+    searchBox.addEventListener('input',()=>{
+        if(!drugsCards.querySelector('.every-drug')){
+            amrShowAll(allData);
+            title.innerText = 'نتائج البحث'
+        }
+    
+        
+        let allDrugs = drugsCards.querySelectorAll('.every-drug');
+        allDrugs.forEach(drug => {
+    
+    drug.style.display = "none"})
+    
+    
+        allDrugs.forEach(drug => {
+            let searchText = "";
+            searchText += ` ${drug.querySelector('.info .name').textContent}`
+    drug.querySelectorAll('.info p').forEach(node =>{
+        searchText += ` ${node.textContent}`;
+    })
+    
+            if(searchText.includes(searchBox.value)){
+                drug.style.display = "block";
+                
+            }
+            
+        })
+    })
+
+
+
+
+
+
 const allData = [
         {
             "drugName": "بيزوكارد 5 بلس",
@@ -717,7 +778,7 @@ const allData = [
             "availability": "not-available"
         },
         {
-            "drugName": "داينترا 5",
+            "drugName": "دينيترا 5",
             "drugNameEN": "",
             "drugCode": "705",
             "image": "imgs/dinitra5.jpg",
