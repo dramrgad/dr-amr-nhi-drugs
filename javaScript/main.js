@@ -128,7 +128,7 @@ const allData = [
             "activeConstituent": "bisoprolol 5mg",
             "alternatives": {
                 "enames":['bisocard 5','concor 5'],
-                "names": ['كونكور 5'],
+                "names": ['كونكور 5','بيزوكارد 5'],
                 "images" : ['imgs/concor5.jpg']
             },
             "traditionalInfo": "علاج الضغط",
@@ -1008,12 +1008,12 @@ const allData = [
         },
         {
             "drugName": "شوجارلو بلس",
-            "drugNameEN": "suglarlo - vildagliptin - jalbets",
+            "drugNameEN": "sugarlo plus",
             "drugCode": "3104",
             "image": "imgs/vildagluse.jpg",
             "activeConstituent": "vildagliptin",
             "alternatives": {
-                "enames":[''],
+                "enames":['sugarlo plus','vildagluse plus','gliptus plus'],
                 "names": ['شوجارلو بلس','فيلداجلوز بلس','جليبتس بلس'],
                 "images" : []
             },
@@ -1196,7 +1196,10 @@ const allData = [
     ]
     ;
     // معلومة تاكيد تحميل البيانات
-    title.innerText = "اختر القسم لعرض معلومات الادوية"
+    title.innerHTML =`اختر القسم لعرض معلومات الادوية
+    <br />
+    قد يكون الدواء متوفر في بداية اليوم وينتهي خلال اليوم قبل تحديث البيانات
+`
     // اظهار اسم القسم
     list.forEach(item => {
         item.addEventListener('click', e => {
