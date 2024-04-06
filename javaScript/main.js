@@ -254,7 +254,7 @@ const allData = [
             "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "ايرستابكس بلس",
@@ -866,7 +866,7 @@ const allData = [
             "administration": "كبسولة الساعة ال 9 صباحا والساعة ال 5 المغرب، مهم وجود 8 ساعات فارق ليس اقل بكثير ولا اكثر بكثير",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "ماريفان 1",
@@ -1004,7 +1004,7 @@ const allData = [
             "administration": "طبقا لكل مريض والاشهر 30 وحدة صباحا و 15 وحدة مساءا",
             "division1": "ادوية السكر",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "شوجارلو بلس",
