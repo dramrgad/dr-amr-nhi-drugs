@@ -22,6 +22,7 @@ const title = document.querySelector(".section-title");
 const drugsCards = document.querySelector(".drugs-cards");
 const searchBox = document.querySelector(".search");
 let drugToShow = ``;
+let searchProgress = false;
 // let start = 0;
 // ارسال طلب تحميل البيانات
 // const drugData = new XMLHttpRequest();
@@ -55,10 +56,21 @@ let drugToShow = ``;
 
 
 
-
+    // !drugsCards.querySelector('.every-drug') && 
     searchBox.addEventListener('input',()=>{
-        if(!drugsCards.querySelector('.every-drug')){
-            amrShowAll(allData);
+        if(!searchProgress){
+            // amrShowAll(allData);
+            drugsCards.innerHTML = '';
+            searchProgress = true;
+            allData.forEach(drug => {
+                    getDrugs(drug);
+                    list.forEach(item => {
+                            removeClassactive(list);
+                        })
+                });
+
+
+
             title.innerText = 'نتائج البحث'
         }
     
@@ -98,7 +110,7 @@ const allData = [
             "image": "imgs/bisoocard5-plus.jpg",
             "activeConstituent": "bisoprolol 5mg + hydrochlorothiazide 12.5mg",
             "alternatives": {
-                "enames":[],
+                "enames":['bisocard 5 plus','concor 5 plus'],
                 "names": ['بيزوكارد 5 بلس','كونكور 5 بلس'],
                 "images" : ['imgs/bisoocard5-plus.jpg','imgs/concor5plus.jpg']
             },
@@ -115,7 +127,7 @@ const allData = [
             "image": "imgs/concor5.jpg",
             "activeConstituent": "bisoprolol 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":['bisocard 5','concor 5'],
                 "names": ['كونكور 5'],
                 "images" : ['imgs/concor5.jpg']
             },
@@ -132,7 +144,7 @@ const allData = [
             "image": "imgs/sinopril.jpg",
             "activeConstituent": "lisinopril 10mg",
             "alternatives": {
-                "enames":[],
+                "enames":['sinopril 10'],
                 "names": ['سينوبريل 10'],
                 "images" : ['imgs/sinopril.jpg']
             },
@@ -149,7 +161,7 @@ const allData = [
             "image": "imgs/sinopril-co.jpg",
             "activeConstituent": "lisinopril 20mg + hydrochlorothiazide 25mg",
             "alternatives": {
-                "enames":[],
+                "enames":['sinopril co','lisinopril co'],
                 "names": ['سينوبريل كو','ليزينوبريل كو'],
                 "images" : ['imgs/sinopril-co.jpg']
             },
@@ -166,7 +178,7 @@ const allData = [
             "image": "imgs/carvid6.25.jpg",
             "activeConstituent": "carvedilol 6.25mg",
             "alternatives": {
-                "enames":[],
+                "enames":['carvid 6.25','carvipress 6.25','carvidol 6.25'],
                 "names": ['كارفيد 6.25','كارديلول 6.25'],
                 "images" : ['imgs/carvid6.25.jpg','imgs/cardilol6.25.jpg']
             },
@@ -183,7 +195,7 @@ const allData = [
             "image": "imgs/carvipress.jpg",
             "activeConstituent": "carvidilol 12.5mg",
             "alternatives": {
-                "enames":[],
+                "enames":['carvid 25','carvipress 12.5','carvidol 25'],
                 "names": ["كارفيبريس 12.5"],
                 "images" : ["imgs/carvipress.jpg"]
             },
@@ -200,7 +212,7 @@ const allData = [
             "image": "imgs/erastapex20.jpg",
             "activeConstituent": "omlesartan 20mg",
             "alternatives": {
-                "enames":[],
+                "enames":['erastapex 20','omlesartan 20'],
                 "names": ["ايرستابكس 20"],
                 "images" : ["imgs/erastapex20.jpg"]
             },
@@ -217,7 +229,7 @@ const allData = [
             "image": "imgs/erastapexco20.jpg",
             "activeConstituent": "omlesartan 5mg + amlodipine 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ["ايرستابكس كو 20/5"],
                 "images" : ["imgs/erastapexco20.jpg"]
             },
@@ -234,7 +246,7 @@ const allData = [
             "image": "imgs/erastapextrio.jpg",
             "activeConstituent": "omlesartan 5mg + amlodipine 5mg + hydrochlorothiazide 25",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ["ايرستابكس تريو"],
                 "images" : ["imgs/erastapextrio.jpg"]
             },
@@ -251,7 +263,7 @@ const allData = [
             "image": "imgs/erastapexplus.jpg",
             "activeConstituent": "omlesartan 5mg + hydrochlorothiazide 25",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ["ايرستابكس بلس"],
                 "images" : ["imgs/erastapexplus.jpg"]
             },
@@ -268,7 +280,7 @@ const allData = [
             "image": "imgs/avivavasc5160.jpg",
             "activeConstituent": "amlodipine 5mg + valsartan 160mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['افيفافاسك 5/160','بلوكاتنس 5/160','اكسفورج 5/160'],
                 "images" : ["imgs/avivavasc5160.jpg" , "imgs/blokatens5160.jpg" , "imgs/exforg5160.jpg"]
             },
@@ -285,7 +297,7 @@ const allData = [
             "image": "imgs/avivavasc10160.jpg",
             "activeConstituent": "amlodipine 10mg + valsartan 160mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['افيفافاسك 10/160','بلوكاتنس 10/160','اكسفورج 10/160'],
                 "images" : ["imgs/avivavasc10160.jpg" , 'imgs/blokatens10160.jpg', "imgs/exforg10160.jpg"]
             },
@@ -302,7 +314,7 @@ const allData = [
             "image": "imgs/triacor55.jpg",
             "activeConstituent": "felodipine 5mg + ramipril 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ["ترياكور 5/5"],
                 "images" : ["imgs/triacor55.jpg"]
             },
@@ -319,7 +331,7 @@ const allData = [
             "image": "imgs/tritacemax.jpg",
             "activeConstituent": "olmesartan 40mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -336,7 +348,7 @@ const allData = [
             "image": "imgs/tritace5.jpg",
             "activeConstituent": "olmesartan 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -353,7 +365,7 @@ const allData = [
             "image": "imgs/tritace2-5.jpg",
             "activeConstituent": "olmesartan 2.5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -370,7 +382,7 @@ const allData = [
             "image": "imgs/clopex.jpg",
             "activeConstituent": "clopidogrel 75mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ["كلوبكس 75","كلاتكس 75","بورجافكس 75","انجوسموث  75"],
                 "images" : ["imgs/clopex.jpg","imgs/clatex.jpg","imgs/borgavex.jpg","imgs/angosmooth.jpg"]
             },
@@ -387,7 +399,7 @@ const allData = [
             "image": "imgs/cardixin.jpg",
             "activeConstituent": "diltiazem",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -404,7 +416,7 @@ const allData = [
             "image": "imgs/betacor.jpg",
             "activeConstituent": "bisoprolol",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -421,7 +433,7 @@ const allData = [
             "image": "imgs/adancor10.jpg",
             "activeConstituent": "adalat",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -438,7 +450,7 @@ const allData = [
             "image": "imgs/randil20.jpg",
             "activeConstituent": "nicorandil 20mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -455,7 +467,7 @@ const allData = [
             "image": "imgs/tricardia.jpg",
             "activeConstituent": "verapamil",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['ترايكارديا','ميتاكارديا','فاستاريل ام ار'],
                 "images" : []
             },
@@ -472,7 +484,7 @@ const allData = [
             "image": "imgs/cordarone.jpg",
             "activeConstituent": "amiodarone",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -489,7 +501,7 @@ const allData = [
             "image": "imgs/isoptin80.jpg",
             "activeConstituent": "isoptin",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -506,7 +518,7 @@ const allData = [
             "image": "imgs/inderal10.jpg",
             "activeConstituent": "propranolol",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['اندرال 10'],
                 "images" : ['imgs/inderal10.jpg']
             },
@@ -523,7 +535,7 @@ const allData = [
             "image": "imgs/alkapress5.jpg",
             "activeConstituent": "amlodipine 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -540,7 +552,7 @@ const allData = [
             "image": "imgs/candelkan8.jpg",
             "activeConstituent": "candesartan 8mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -557,7 +569,7 @@ const allData = [
             "image": "imgs/candelkan16plus.jpg",
             "activeConstituent": "candesartan 16mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -568,18 +580,18 @@ const allData = [
             "availability": "not-available"
         },
         {
-            "drugName": "سيلكونزوك 100",
+            "drugName": "سيلوكينزوك 100",
             "drugNameEN": "selokenzoc 100",
             "drugCode": "3484",
             "image": "imgs/selokenzoc100.jpg",
             "activeConstituent": "silodosin 100mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
             "traditionalInfo": "علاج الضغط",
-            "administration": "قرص قبل الفطار وفي حالة وجود علاج ضغط اخر تصبح الجرعة من الكونكور قرص مساءا وعلاج الضغط الاخر صباحا",
+            "administration": "قرص صباحا",
             "division1": "ادوية الضغط",
             "division2": "",
             "availability": "available"
@@ -591,7 +603,7 @@ const allData = [
             "image": "imgs/nevilop5.jpg",
             "activeConstituent": "amlodipine 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -608,7 +620,7 @@ const allData = [
             "image": "imgs/nevilop5plus.jpg",
             "activeConstituent": "amlodipine 5mg + valsartan 80mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -625,7 +637,7 @@ const allData = [
             "image": "imgs/napibradine5.jpg",
             "activeConstituent": "ivabradine 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['ايفابرادين 5','نابيبرادين 5','بروكارلان 5'],
                 "images" : []
             },
@@ -642,7 +654,7 @@ const allData = [
             "image": "imgs/napibradine75.jpg",
             "activeConstituent": "ivabradine 7.5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['ايفابرادين 7.5','نابيبرادين 7.5','بروكارلان 7.5'],
                 "images" : []
             },
@@ -659,7 +671,7 @@ const allData = [
             "image": "imgs/exaretic20.jpg",
             "activeConstituent": "torasemide 20mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -676,7 +688,7 @@ const allData = [
             "image": "imgs/lasix40.jpg",
             "activeConstituent": "furosemide 40mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -693,7 +705,7 @@ const allData = [
             "image": "imgs/aldactone25.jpg",
             "activeConstituent": "spironolactone 25mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -710,7 +722,7 @@ const allData = [
             "image": "imgs/carfalone25.jpg",
             "activeConstituent": "carvedilol 25mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -727,7 +739,7 @@ const allData = [
             "image": "imgs/cholerose10.jpg",
             "activeConstituent": "atorvastatin 10mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -744,7 +756,7 @@ const allData = [
             "image": "imgs/atoreza1020.jpg",
             "activeConstituent": "atorvastatin 10mg + ezetimibe 20mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -761,7 +773,7 @@ const allData = [
             "image": "imgs/atoreza1040.jpg",
             "activeConstituent": "atorvastatin 10mg + ezetimibe 40mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -778,7 +790,7 @@ const allData = [
             "image": "imgs/ator20.jpg",
             "activeConstituent": "atorvastatin 20mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -795,7 +807,7 @@ const allData = [
             "image": "imgs/ator40.jpg",
             "activeConstituent": "atorvastatin 40mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -812,7 +824,7 @@ const allData = [
             "image": "imgs/lipanthyl.jpg",
             "activeConstituent": "fenofibrate",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -829,7 +841,7 @@ const allData = [
             "image": "imgs/dinitra5.jpg",
             "activeConstituent": "trazodone 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -846,7 +858,7 @@ const allData = [
             "image": "imgs/nitromak.jpg",
             "activeConstituent": "nitroglycerin 2.5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -863,7 +875,7 @@ const allData = [
             "image": "imgs/marevan1.jpg",
             "activeConstituent": "warfarin 1mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -880,7 +892,7 @@ const allData = [
             "image": "imgs/marevan3.jpg",
             "activeConstituent": "warfarin 3mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -897,7 +909,7 @@ const allData = [
             "image": "imgs/marevan5.jpg",
             "activeConstituent": "warfarin 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -914,7 +926,7 @@ const allData = [
             "image": "imgs/aspocid.jpg",
             "activeConstituent": "aspirin",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -931,7 +943,7 @@ const allData = [
             "image": "imgs/vaxa5.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -949,7 +961,7 @@ const allData = [
             "image": "imgs/vaxa15.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -967,7 +979,7 @@ const allData = [
             "image": "imgs/vaxa20.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -984,7 +996,7 @@ const allData = [
             "image": "imgs/insulin.jpg",
             "activeConstituent": "insulin",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['انسولين 70/30','ميكستارد'],
                 "images" : []
             },
@@ -1001,8 +1013,8 @@ const allData = [
             "image": "imgs/vildagluse.jpg",
             "activeConstituent": "vildagliptin",
             "alternatives": {
-                "enames":[],
-                "names": ['شوجارلو بلس','فلداجلوز بلس','جليبتس بلس'],
+                "enames":[''],
+                "names": ['شوجارلو بلس','فيلداجلوز بلس','جليبتس بلس'],
                 "images" : []
             },
             "traditionalInfo": "علاج مرض السكري",
@@ -1018,7 +1030,7 @@ const allData = [
             "image": "imgs/glimet-fort.jpg",
             "activeConstituent": "glimepiride 2mg + metformin 500mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['جليميت فورت'],
                 "images" : []
             },
@@ -1035,7 +1047,7 @@ const allData = [
             "image": "imgs/diamedizin.jpg",
             "activeConstituent": "gliclazide 60mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['دياميكرون 60','دياميديزين 60'],
                 "images" : []
             },
@@ -1052,7 +1064,7 @@ const allData = [
             "image": "imgs/amaryl3.jpg",
             "activeConstituent": "glimepiride 3mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['اماريل 3','جليميبرايد 3'],
                 "images" : []
             },
@@ -1069,7 +1081,7 @@ const allData = [
             "image": "imgs/cidophage500.jpg",
             "activeConstituent": "metformin 500mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['سيدوفاج 500','ميبافاج 500'],
                 "images" : []
             },
@@ -1086,7 +1098,7 @@ const allData = [
             "image": "imgs/forflozin10.jpg",
             "activeConstituent": "fluoxetine 20mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
                 "images" : []
             },
@@ -1103,7 +1115,7 @@ const allData = [
             "image": "imgs/futaban40.jpg",
             "activeConstituent": "pantoprazole",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -1120,7 +1132,7 @@ const allData = [
             "image": "imgs/depo-pen.jpg",
             "activeConstituent": "penicillin",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -1137,7 +1149,7 @@ const allData = [
             "image": "imgs/milga.jpg",
             "activeConstituent": "multivitamins",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -1154,7 +1166,7 @@ const allData = [
             "image": "imgs/depovit.jpg",
             "activeConstituent": "vitamins",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -1171,7 +1183,7 @@ const allData = [
             "image": "imgs/thiotacid600.jpg",
             "activeConstituent": "thyotacide 600mg",
             "alternatives": {
-                "enames":[],
+                "enames":[''],
                 "names": [],
                 "images" : []
             },
@@ -1215,6 +1227,7 @@ const allData = [
 // Start Functions
 function addClassactive (ele){
     ele.classList.add("active");
+    searchProgress = false;
 }
 function removeClassactive (allElements){
     allElements.forEach(ele =>{
@@ -1237,7 +1250,8 @@ function getDrugs(oneDrug){
     divInfo.className = 'info'
     // creat h4 for drug name
     let nameh4 = document.createElement("h4");
-    nameh4.className = 'name'
+    nameh4.className = 'name';
+    nameh4.dataset.ename = `${oneDrug.drugNameEN}`
     let name4InnerText = document.createTextNode(`${oneDrug.drugName}`);
     nameh4.appendChild(name4InnerText);
     divInfo.appendChild(nameh4);
