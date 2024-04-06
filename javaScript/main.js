@@ -212,7 +212,7 @@ const allData = [
             "image": "imgs/erastapex20.jpg",
             "activeConstituent": "omlesartan 20mg",
             "alternatives": {
-                "enames":['erastapex 20','omlesartan 20'],
+                "enames":['erastapex 20','omlesartan 20','lezberg 20','angiosartan 20'],
                 "names": ["ايرستابكس 20"],
                 "images" : ["imgs/erastapex20.jpg"]
             },
