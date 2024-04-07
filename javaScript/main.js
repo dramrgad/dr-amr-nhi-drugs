@@ -883,7 +883,7 @@ const allData = [
             "administration": "الجرعة طبقا لتحليل السيولة",
             "division1": "ادوية السيولة",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "ماريفان 5",
