@@ -382,7 +382,7 @@ const allData = [
             "image": "imgs/clopex.jpg",
             "activeConstituent": "clopidogrel 75mg",
             "alternatives": {
-                "enames":[''],
+                "enames":['clopex 75mg','clatex 75','borgavix 75','angosmooth 75'],
                 "names": ["كلوبكس 75","كلاتكس 75","بورجافكس 75","انجوسموث  75"],
                 "images" : ["imgs/clopex.jpg","imgs/clatex.jpg","imgs/borgavex.jpg","imgs/angosmooth.jpg"]
             },
@@ -1254,7 +1254,7 @@ function getDrugs(oneDrug){
     // creat h4 for drug name
     let nameh4 = document.createElement("h4");
     nameh4.className = 'name';
-    nameh4.dataset.ename = `${oneDrug.drugNameEN}`
+    nameh4.dataset.ename = `${oneDrug.drugNameEN} ${oneDrug.alternatives.enames.join(" ")}`
     let name4InnerText = document.createTextNode(`${oneDrug.drugName}`);
     nameh4.appendChild(name4InnerText);
     divInfo.appendChild(nameh4);
