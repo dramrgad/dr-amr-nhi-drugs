@@ -594,7 +594,7 @@ const allData = [
             "administration": "قرص بعد الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "نيفيلوب بلس",
