@@ -213,7 +213,7 @@ const allData = [
             "activeConstituent": "omlesartan 20mg",
             "alternatives": {
                 "enames":['erastapex 20','omlesartan 20','lezberg 20','angiosartan 20'],
-                "names": ["ايرستابكس 20"],
+                "names": ["ايرستابكس 20",'اولميسارتان 20','ليزبيرج 20','انجيوسارتان 20'],
                 "images" : ["imgs/erastapex20.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
@@ -229,8 +229,8 @@ const allData = [
             "image": "imgs/erastapexco20.jpg",
             "activeConstituent": "omlesartan 5mg + amlodipine 5mg",
             "alternatives": {
-                "enames":[''],
-                "names": ["ايرستابكس كو 20/5"],
+                "enames":['erastapex co 20/5','lezberg amlo 20/5'],
+                "names": ["ايرستابكس كو 20/5",'ليزبيرج املو 20/5'],
                 "images" : ["imgs/erastapexco20.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
@@ -246,7 +246,7 @@ const allData = [
             "image": "imgs/erastapextrio.jpg",
             "activeConstituent": "omlesartan 5mg + amlodipine 5mg + hydrochlorothiazide 25",
             "alternatives": {
-                "enames":[''],
+                "enames":['erastapex trio'],
                 "names": ["ايرستابكس تريو"],
                 "images" : ["imgs/erastapextrio.jpg"]
             },
@@ -258,13 +258,13 @@ const allData = [
         },
         {
             "drugName": "ايرستابكس بلس",
-            "drugNameEN": "erastapex plus",
+            "drugNameEN": "erastapex plus 20/12.5",
             "drugCode": "4770",
             "image": "imgs/erastapexplus.jpg",
             "activeConstituent": "omlesartan 5mg + hydrochlorothiazide 25",
             "alternatives": {
-                "enames":[''],
-                "names": ["ايرستابكس بلس"],
+                "enames":['erastapex plus 20/12.5','vecovartec plus 20/12.5'],
+                "names": ["ايرستابكس بلس 20/12.5",'فيكوفارتيك بلس 20/12.5'],
                 "images" : ["imgs/erastapexplus.jpg"]
             },
             "traditionalInfo": "علاج الضغط",
@@ -292,12 +292,12 @@ const allData = [
         },
         {
             "drugName": "افيفافاسك 10/16",
-            "drugNameEN": "avivavasc 10/160",
+            "drugNameEN": "",
             "drugCode": "4794",
             "image": "imgs/avivavasc10160.jpg",
             "activeConstituent": "amlodipine 10mg + valsartan 160mg",
             "alternatives": {
-                "enames":[''],
+                "enames":['avivavasc 10/160','blokatens 10/160','exforge 10/160'],
                 "names": ['افيفافاسك 10/160','بلوكاتنس 10/160','اكسفورج 10/160'],
                 "images" : ["imgs/avivavasc10160.jpg" , 'imgs/blokatens10160.jpg', "imgs/exforg10160.jpg"]
             },
@@ -314,7 +314,7 @@ const allData = [
             "image": "imgs/triacor55.jpg",
             "activeConstituent": "felodipine 5mg + ramipril 5mg",
             "alternatives": {
-                "enames":[''],
+                "enames":['triacor 5/5'],
                 "names": ["ترياكور 5/5"],
                 "images" : ["imgs/triacor55.jpg"]
             },
@@ -343,13 +343,13 @@ const allData = [
         },
         {
             "drugName": "تريتاس 5",
-            "drugNameEN": "tritace5",
+            "drugNameEN": "tritace 5",
             "drugCode": "69",
             "image": "imgs/tritace5.jpg",
             "activeConstituent": "olmesartan 5mg",
             "alternatives": {
-                "enames":[''],
-                "names": [],
+                "enames":['tritace 5','right-ace 5','ramipril 5'],
+                "names": ['تريتاس 5','راييت ايس 5','راميبريل 5'],
                 "images" : []
             },
             "traditionalInfo": "علاج الضغط",
@@ -365,8 +365,8 @@ const allData = [
             "image": "imgs/tritace2-5.jpg",
             "activeConstituent": "olmesartan 2.5mg",
             "alternatives": {
-                "enames":[''],
-                "names": [],
+                "enames":['tritace 2.5','ramipril 2.5'],
+                "names": ['تريتاس 2.5','راميبريل 2.5'],
                 "images" : []
             },
             "traditionalInfo": "علاج الضغط",
