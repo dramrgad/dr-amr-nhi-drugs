@@ -543,7 +543,7 @@ const allData = [
             "administration": "قرص كل 12 ساعة",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "كاندلكان 16 بلس",
