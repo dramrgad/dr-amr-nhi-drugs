@@ -280,7 +280,7 @@ const allData = [
             "image": "imgs/avivavasc5160.jpg",
             "activeConstituent": "amlodipine 5mg + valsartan 160mg",
             "alternatives": {
-                "enames":[''],
+                "enames":['avivavasc 5/160','blokatens 5/160','exforge 5/160'],
                 "names": ['افيفافاسك 5/160','بلوكاتنس 5/160','اكسفورج 5/160'],
                 "images" : ["imgs/avivavasc5160.jpg" , "imgs/blokatens5160.jpg" , "imgs/exforg5160.jpg"]
             },
@@ -427,32 +427,15 @@ const allData = [
             "availability": "available"
         },
         {
-            "drugName": "ادانكور 10",
-            "drugNameEN": "adancor 10",
+            "drugName": "ادانكور",
+            "drugNameEN": "adancor",
             "drugCode": "4325",
             "image": "imgs/adancor10.jpg",
             "activeConstituent": "adalat",
             "alternatives": {
-                "enames":[''],
-                "names": [],
-                "images" : []
-            },
-            "traditionalInfo": "علاج الذبحة الصدرية",
-            "administration": "قرص كل 12 ساعة",
-            "division1": "ادوية القلب والدعامة",
-            "division2": "",
-            "availability": "not-available"
-        },
-        {
-            "drugName": "رانديل 20",
-            "drugNameEN": "randil 20",
-            "drugCode": "3549",
-            "image": "imgs/randil20.jpg",
-            "activeConstituent": "nicorandil 20mg",
-            "alternatives": {
-                "enames":[''],
-                "names": [],
-                "images" : []
+                "enames":['adancor','randil 20'],
+                "names": ['ادانكور 10','رانديل 20'],
+                "images" : ["imgs/adancor10.jpg","imgs/randil20.jpg"]
             },
             "traditionalInfo": "علاج الذبحة الصدرية",
             "administration": "قرص كل 12 ساعة",
@@ -462,12 +445,12 @@ const allData = [
         },
         {
             "drugName": "ترايكارديا",
-            "drugNameEN": "triacardia - vastarel MR",
+            "drugNameEN": "triacardia",
             "drugCode": "310",
             "image": "imgs/tricardia.jpg",
             "activeConstituent": "verapamil",
             "alternatives": {
-                "enames":[''],
+                "enames":['triacardia','metacardia','vastarel MR'],
                 "names": ['ترايكارديا','ميتاكارديا','فاستاريل ام ار'],
                 "images" : []
             },
@@ -535,8 +518,8 @@ const allData = [
             "image": "imgs/alkapress5.jpg",
             "activeConstituent": "amlodipine 5mg",
             "alternatives": {
-                "enames":[''],
-                "names": [],
+                "enames":['alkapress 5','vasopine 5'],
+                "names": ['الكابرس 5','فازوبين 5'],
                 "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع",
@@ -552,8 +535,8 @@ const allData = [
             "image": "imgs/candelkan8.jpg",
             "activeConstituent": "candesartan 8mg",
             "alternatives": {
-                "enames":[''],
-                "names": [],
+                "enames":['candelkan 8','albustix 8'],
+                "names": ['كاندلكان 8','البيوستكس 8'],
                 "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع",
@@ -598,13 +581,13 @@ const allData = [
         },
         {
             "drugName": "نيفيلوب 5",
-            "drugNameEN": "nivilop 5",
+            "drugNameEN": "nevilob 5",
             "drugCode": "4312",
             "image": "imgs/nevilop5.jpg",
             "activeConstituent": "amlodipine 5mg",
             "alternatives": {
-                "enames":[''],
-                "names": [],
+                "enames":['nevilob 5','mavilor 5','nebasco 5'],
+                "names": ['نيفيلوب','مافيلور 5','نيباسكو 5'],
                 "images" : []
             },
             "traditionalInfo": "علاج ضغط الدم المرتفع",
