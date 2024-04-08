@@ -1126,7 +1126,7 @@ const allData = [
             "availability": "not-available"
         },
         {
-            "drugName": "الميلجا",
+            "drugName": "ميلجا",
             "drugNameEN": "milga",
             "drugCode": "",
             "image": "imgs/milga.jpg",
@@ -1140,7 +1140,7 @@ const allData = [
             "administration": "قرص بعد الغداء",
             "division1": "ادوية اخرى",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "حقن الفيتامينات",
