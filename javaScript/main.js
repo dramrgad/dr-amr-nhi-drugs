@@ -90,7 +90,7 @@ let searchProgress = false;
     })
     
             if(searchText.includes(searchBox.value.toLowerCase())){
-                drug.style.display = "block";
+                drug.style.display = "flex";
                 
             }
             
