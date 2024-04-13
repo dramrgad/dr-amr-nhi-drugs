@@ -1047,8 +1047,8 @@ const allData = [
             "image": "imgs/amaryl3.jpg",
             "activeConstituent": "glimepiride 3mg",
             "alternatives": {
-                "enames":[''],
-                "names": ['اماريل 3','جليميبرايد 3'],
+                "enames":['amaryl 3','glimepiride 3','diabenor 3'],
+                "names": ['اماريل 3','جليميبرايد 3','ديابينور 3'],
                 "images" : []
             },
             "traditionalInfo": "علاج مرض السكري",
