@@ -841,7 +841,7 @@ const allData = [
             "image": "imgs/nitromak.jpg",
             "activeConstituent": "nitroglycerin 2.5mg",
             "alternatives": {
-                "enames":[''],
+                "enames":['nitromak 2.5'],
                 "names": [],
                 "images" : []
             },
@@ -849,7 +849,7 @@ const allData = [
             "administration": "كبسولة الساعة ال 9 صباحا والساعة ال 5 المغرب، مهم وجود 8 ساعات فارق ليس اقل بكثير ولا اكثر بكثير",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "ماريفان 1",
@@ -987,7 +987,7 @@ const allData = [
             "administration": "طبقا لكل مريض والاشهر 30 وحدة صباحا و 15 وحدة مساءا",
             "division1": "ادوية السكر",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "شوجارلو بلس",
