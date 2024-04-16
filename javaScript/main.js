@@ -339,7 +339,7 @@ const allData = [
             "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "تريتاس 5",
@@ -356,7 +356,7 @@ const allData = [
             "administration": "قرص مرة يوميا وعلى حسب ارشادات الطبيب",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "تريتاس 2.5",
@@ -373,7 +373,7 @@ const allData = [
             "administration": "قرص مرة يوميا وعلى حسب ارشادات الطبيب",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "كلوبكس 75",
@@ -560,7 +560,7 @@ const allData = [
             "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "سيلوكينزوك 100",
@@ -713,7 +713,7 @@ const allData = [
             "administration": "قرص قبل الفطار ع الريق صباحا",
             "division1": "ادوية ادرار البول",
             "division2": "ادوية الضغط",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "كوليروز 10",
@@ -730,7 +730,7 @@ const allData = [
             "administration": "قرص بعد العشاء",
             "division1": "الدهون-او-الكوليستيرول",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "اتوريزا 10/20",
@@ -781,7 +781,7 @@ const allData = [
             "administration": "قرص بعد العشاء",
             "division1": "الدهون-او-الكوليستيرول",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "اتور 40",
@@ -798,7 +798,7 @@ const allData = [
             "administration": "قرص بعد العشاء",
             "division1": "الدهون-او-الكوليستيرول",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "ليبانتيل",
@@ -815,7 +815,7 @@ const allData = [
             "administration": "قرص بعد العشاء",
             "division1": "الدهون-او-الكوليستيرول",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "دينيترا 5",
@@ -849,7 +849,7 @@ const allData = [
             "administration": "كبسولة الساعة ال 9 صباحا والساعة ال 5 المغرب، مهم وجود 8 ساعات فارق ليس اقل بكثير ولا اكثر بكثير",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "ماريفان 1",
