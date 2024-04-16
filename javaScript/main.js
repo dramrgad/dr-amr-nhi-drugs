@@ -628,7 +628,7 @@ const allData = [
             "administration": "قرص كل 12 ساعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "ايفبرادين 7.5",
@@ -645,7 +645,7 @@ const allData = [
             "administration": "قرص كل 12 ساعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "اكساريتيك 20",
@@ -934,7 +934,7 @@ const allData = [
             "administration": "قرص كل 12 ساعة بعد الاكل",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
-            "availability": "not-available"
+            "availability": "available"
         },
         
         {
@@ -1055,7 +1055,7 @@ const allData = [
             "administration": "قرص قبل الفطار",
             "division1": "ادوية السكر",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "سيدوفاج 500 او 850",
@@ -1072,7 +1072,7 @@ const allData = [
             "administration": "قرص بعد الفطار والغداء",
             "division1": "ادوية السكر",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "مليتوفكس 10",
@@ -1089,7 +1089,7 @@ const allData = [
             "administration": "قرص قبل الفطار",
             "division1": "ادوية السكر",
             "division2": "ادوية القلب والدعامة",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "بانتوبي - بانتوبرازول",
@@ -1106,7 +1106,7 @@ const allData = [
             "administration": "قرص قبل الفطار بنصف ساعة",
             "division1": "ادوية اخرى",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "حقنة البنسيلين",
