@@ -407,7 +407,7 @@ const allData = [
             "administration": "قرص يوميا ماعدا الجمعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "بيتاكور 80",
