@@ -944,7 +944,7 @@ const allData = [
             "image": "imgs/vaxa15.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
-                "enames":[''],
+                "enames":['vaxato 15'],
                 "names": [],
                 "images" : []
             },
@@ -952,7 +952,7 @@ const allData = [
             "administration": "قرص بعد الغداء",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
-            "availability": "available"
+            "availability": "not-available"
         },
         
         {
@@ -962,7 +962,7 @@ const allData = [
             "image": "imgs/vaxa20.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
-                "enames":[''],
+                "enames":['vaxato 20'],
                 "names": [],
                 "images" : []
             },
