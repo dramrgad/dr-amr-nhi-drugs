@@ -926,8 +926,8 @@ const allData = [
             "image": "imgs/vaxa5.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
-                "enames":[''],
-                "names": [],
+                "enames":['apixaban 5','eliquis 5','elimbosis 5'],
+                "names": ['ابيكسبان 5','اليكويس 5','اليمبوسيس 5'],
                 "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
@@ -944,8 +944,8 @@ const allData = [
             "image": "imgs/vaxa15.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
-                "enames":['vaxato 15'],
-                "names": [],
+                "enames":['vaxato 15','rivaroxaban 15'],
+                "names": ['فاكساتو 15','ريفاروكسبان 15'],
                 "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
@@ -962,8 +962,8 @@ const allData = [
             "image": "imgs/vaxa20.jpg",
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
-                "enames":['vaxato 20'],
-                "names": [],
+                "enames":['vaxato 20','rivaroxaban 20'],
+                "names": ['فاكساتو 20','ريفاروكسبان 20'],
                 "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
