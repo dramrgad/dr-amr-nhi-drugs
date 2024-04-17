@@ -1081,8 +1081,8 @@ const allData = [
             "image": "imgs/forflozin10.jpg",
             "activeConstituent": "fluoxetine 20mg",
             "alternatives": {
-                "enames":[''],
-                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10'],
+                "enames":['mellitofix 10','forflozin 10','diacurimap 10','embacoza 10'],
+                "names": ['مليتوفكس 10','فورفلوزين 10','دياكيوريماب 10',' ايمباكوزا 10'],
                 "images" : []
             },
             "traditionalInfo": "علاج السكر والقلب",
