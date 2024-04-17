@@ -927,7 +927,7 @@ const allData = [
             "activeConstituent": "rivaroxaban 5mg",
             "alternatives": {
                 "enames":['apixaban 5','eliquis 5','elimbosis 5'],
-                "names": ['ابيكسبان 5','اليكويس 5','اليمبوسيس 5'],
+                "names": ['ابيكسبان 5','اليكويس 5','اليمبوسيس 5',''],
                 "images" : []
             },
             "traditionalInfo": "علاج تخثر الدم والأوعية الدموية",
