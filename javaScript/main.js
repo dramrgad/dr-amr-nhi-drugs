@@ -56,6 +56,7 @@ let searchProgress = false;
 
 
 
+
     // !drugsCards.querySelector('.every-drug') && 
     searchBox.addEventListener('input',()=>{
         if(!searchProgress){
@@ -1183,6 +1184,20 @@ const allData = [
     <br />
     قد يكون الدواء متوفر في بداية اليوم وينتهي خلال اليوم قبل تحديث البيانات
 `
+
+
+allData.forEach(drug => {
+    getDrugs(drug);
+    list.forEach(item => {
+            removeClassactive(list);
+        })
+});
+
+let allDrugs = drugsCards.querySelectorAll('.every-drug');
+        allDrugs.forEach(drug => {
+    
+    drug.style.display = "none"})
+
     // اظهار اسم القسم
     list.forEach(item => {
         item.addEventListener('click', e => {
@@ -1223,7 +1238,10 @@ function removeClassactive (allElements){
 // filter function
 function getDrugs(oneDrug){
     let everyDrug = document.createElement("div");
+    let drugID = oneDrug.drugNameEN.replace(/\s/g, "");
+    // var withoutSpaces = word.replace(/\s/g, "");
     everyDrug.className = `every-drug ${oneDrug.availability}`;
+    everyDrug.id = drugID;
 
     // creat img element
     let image = document.createElement("img");
@@ -1495,3 +1513,19 @@ function preSlideShow(e){
     allAlternatives[start].classList.add('show');
     e.currentTarget.parentElement.dataset.startNumber = start;
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the hash from the URL
+    let hash = window.location.hash.substr(1);
+    console.log(hash);
+    // If the hash is not empty
+    if (hash !== "") {
+        // Find the card with the corresponding ID
+        let card = document.getElementById(hash);
+        
+        // If the card exists, display it
+        if (card !== null) {
+            card.style.display = "flex";
+        }
+    }
+});
