@@ -1094,7 +1094,7 @@ const allData = [
         },
         {
             "drugName": "بانتوبي - بانتوبرازول",
-            "drugNameEN": "pantobi - pantoprazole",
+            "drugNameEN": "pantoprazole",
             "drugCode": "3413",
             "image": "imgs/futaban40.jpg",
             "activeConstituent": "pantoprazole",
