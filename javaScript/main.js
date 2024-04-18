@@ -293,7 +293,7 @@ const allData = [
         },
         {
             "drugName": "افيفافاسك 10/16",
-            "drugNameEN": "",
+            "drugNameEN": "avivavasc 10/160",
             "drugCode": "4794",
             "image": "imgs/avivavasc10160.jpg",
             "activeConstituent": "amlodipine 10mg + valsartan 160mg",
