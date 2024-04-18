@@ -735,7 +735,7 @@ const allData = [
         },
         {
             "drugName": "اتوريزا 10/20",
-            "drugNameEN": "",
+            "drugNameEN": "atoreza 10/20",
             "drugCode": "",
             "image": "imgs/atoreza1020.jpg",
             "activeConstituent": "atorvastatin 10mg + ezetimibe 20mg",
@@ -752,7 +752,7 @@ const allData = [
         },
         {
             "drugName": "اتوريزا 10/40",
-            "drugNameEN": "",
+            "drugNameEN": "atoreza 10/40",
             "drugCode": "4261",
             "image": "imgs/atoreza1040.jpg",
             "activeConstituent": "atorvastatin 10mg + ezetimibe 40mg",
@@ -769,7 +769,7 @@ const allData = [
         },
         {
             "drugName": "اتور 20",
-            "drugNameEN": "",
+            "drugNameEN": "ator 20",
             "drugCode": "774",
             "image": "imgs/ator20.jpg",
             "activeConstituent": "atorvastatin 20mg",
@@ -786,7 +786,7 @@ const allData = [
         },
         {
             "drugName": "اتور 40",
-            "drugNameEN": "",
+            "drugNameEN": "ator 40",
             "drugCode": "2744",
             "image": "imgs/ator40.jpg",
             "activeConstituent": "atorvastatin 40mg",
@@ -803,7 +803,7 @@ const allData = [
         },
         {
             "drugName": "ليبانتيل",
-            "drugNameEN": "",
+            "drugNameEN": "lipanthyl",
             "drugCode": "3167",
             "image": "imgs/lipanthyl.jpg",
             "activeConstituent": "fenofibrate",
@@ -820,7 +820,7 @@ const allData = [
         },
         {
             "drugName": "دينيترا 5",
-            "drugNameEN": "",
+            "drugNameEN": "dinitra 5",
             "drugCode": "705",
             "image": "imgs/dinitra5.jpg",
             "activeConstituent": "trazodone 5mg",
@@ -837,7 +837,7 @@ const allData = [
         },
         {
             "drugName": "نتروماك 2.5",
-            "drugNameEN": "",
+            "drugNameEN": "nitromak 2.5",
             "drugCode": "3058",
             "image": "imgs/nitromak.jpg",
             "activeConstituent": "nitroglycerin 2.5mg",
@@ -854,7 +854,7 @@ const allData = [
         },
         {
             "drugName": "ماريفان 1",
-            "drugNameEN": "",
+            "drugNameEN": "marevan 1",
             "drugCode": "146",
             "image": "imgs/marevan1.jpg",
             "activeConstituent": "warfarin 1mg",
@@ -871,7 +871,7 @@ const allData = [
         },
         {
             "drugName": "ماريفان 3",
-            "drugNameEN": "",
+            "drugNameEN": "marevan 3",
             "drugCode": "",
             "image": "imgs/marevan3.jpg",
             "activeConstituent": "warfarin 3mg",
@@ -888,7 +888,7 @@ const allData = [
         },
         {
             "drugName": "ماريفان 5",
-            "drugNameEN": "",
+            "drugNameEN": "marevan 5",
             "drugCode": "4312",
             "image": "imgs/marevan5.jpg",
             "activeConstituent": "warfarin 5mg",
@@ -905,7 +905,7 @@ const allData = [
         },
         {
             "drugName": "اسبوسيد (اسبرين)",
-            "drugNameEN": "",
+            "drugNameEN": "aspocid",
             "drugCode": "305",
             "image": "imgs/aspocid.jpg",
             "activeConstituent": "aspirin",
@@ -922,7 +922,7 @@ const allData = [
         },
         {
             "drugName": "ابيكسبان 5",
-            "drugNameEN": "",
+            "drugNameEN": "apixaban 5",
             "drugCode": "4999",
             "image": "imgs/vaxa5.jpg",
             "activeConstituent": "rivaroxaban 5mg",
@@ -940,7 +940,7 @@ const allData = [
         
         {
             "drugName": "فاكساتو 15",
-            "drugNameEN": "",
+            "drugNameEN": "vaxato 15",
             "drugCode": "4786",
             "image": "imgs/vaxa15.jpg",
             "activeConstituent": "rivaroxaban 5mg",
@@ -958,7 +958,7 @@ const allData = [
         
         {
             "drugName": "فاكساتو 20",
-            "drugNameEN": "",
+            "drugNameEN": "vaxato 20",
             "drugCode": "4785",
             "image": "imgs/vaxa20.jpg",
             "activeConstituent": "rivaroxaban 5mg",
@@ -1077,7 +1077,7 @@ const allData = [
         },
         {
             "drugName": "مليتوفكس 10",
-            "drugNameEN": "forfloxin - ambacosa - mletofex",
+            "drugNameEN": "mellitofix 10",
             "drugCode": "5410",
             "image": "imgs/forflozin10.jpg",
             "activeConstituent": "fluoxetine 20mg",
