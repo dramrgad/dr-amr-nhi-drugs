@@ -718,7 +718,7 @@ const allData = [
         },
         {
             "drugName": "كوليروز 10",
-            "drugNameEN": "Cholerose 10mg",
+            "drugNameEN": "cholerose 10mg",
             "drugCode": "3655",
             "image": "imgs/cholerose10.jpg",
             "activeConstituent": "atorvastatin 10mg",
