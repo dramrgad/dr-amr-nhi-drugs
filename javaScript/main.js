@@ -191,7 +191,7 @@ const allData = [
         },
         {
             "drugName": "كارفيبريس 12.5",
-            "drugNameEN": "Carvipress 12.5",
+            "drugNameEN": "carvipress 12.5",
             "drugCode": "2659",
             "image": "imgs/carvipress.jpg",
             "activeConstituent": "carvidilol 12.5mg",
