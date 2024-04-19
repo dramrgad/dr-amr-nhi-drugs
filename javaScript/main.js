@@ -1099,8 +1099,8 @@ const allData = [
             "image": "imgs/futaban40.jpg",
             "activeConstituent": "pantoprazole",
             "alternatives": {
-                "enames":[''],
-                "names": [],
+                "enames":['pantopi','pantoloc','futapan','protofix'],
+                "names": ['بانتوبي','بانتولوك','فيوتابان','بروتوفكس'],
                 "images" : []
             },
             "traditionalInfo": "علاج قرحة المعدة",
