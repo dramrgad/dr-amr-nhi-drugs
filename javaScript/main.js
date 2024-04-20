@@ -988,7 +988,7 @@ const allData = [
             "administration": "طبقا لكل مريض والاشهر 30 وحدة صباحا و 15 وحدة مساءا",
             "division1": "ادوية السكر",
             "division2": "",
-            "availability": "available medium"
+            "availability": "available small"
         },
         {
             "drugName": "شوجارلو بلس",
