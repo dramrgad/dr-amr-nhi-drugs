@@ -170,7 +170,7 @@ const allData = [
             "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "available"
+            "availability": "available medium"
         },
         {
             "drugName": "كارفيد 6.25",
@@ -238,7 +238,7 @@ const allData = [
             "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "ايرستابكس تريو",
@@ -629,7 +629,7 @@ const allData = [
             "administration": "قرص كل 12 ساعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "ايفبرادين 7.5",
@@ -697,7 +697,7 @@ const allData = [
             "administration": "قرص قبل الفطار ع الريق صباحا",
             "division1": "ادوية ادرار البول",
             "division2": "ادوية الضغط",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "كارفالون 25",
@@ -731,7 +731,7 @@ const allData = [
             "administration": "قرص بعد العشاء",
             "division1": "الدهون-او-الكوليستيرول",
             "division2": "",
-            "availability": "available"
+            "availability": "available small"
         },
         {
             "drugName": "اتوريزا 10/20",
@@ -799,7 +799,7 @@ const allData = [
             "administration": "قرص بعد العشاء",
             "division1": "الدهون-او-الكوليستيرول",
             "division2": "",
-            "availability": "available"
+            "availability": "available small"
         },
         {
             "drugName": "ليبانتيل",
@@ -935,7 +935,7 @@ const allData = [
             "administration": "قرص كل 12 ساعة بعد الاكل",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
-            "availability": "available"
+            "availability": "available medium"
         },
         
         {
