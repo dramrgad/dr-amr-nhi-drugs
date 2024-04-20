@@ -224,7 +224,12 @@ padding: 0 10px;
     border-radius: 5px;
     padding: 2px 0;
 }
-
+.availability.available.medium::after{
+  content: 'متوفر كمية قليلة';
+}
+.availability.available.small::after{
+  content: 'متوفر كمية قليلة جدا';
+}
 
 
 
