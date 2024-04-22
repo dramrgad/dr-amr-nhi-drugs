@@ -1107,7 +1107,7 @@ const allData = [
             "administration": "قرص قبل الفطار بنصف ساعة",
             "division1": "ادوية اخرى",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "حقنة البنسيلين",
