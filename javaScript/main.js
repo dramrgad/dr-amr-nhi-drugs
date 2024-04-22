@@ -910,8 +910,8 @@ const allData = [
             "image": "imgs/aspocid.jpg",
             "activeConstituent": "aspirin",
             "alternatives": {
-                "enames":['aspocid 75','aspirin 100','ezacard'],
-                "names": ['اسبوسيد 75','اسبرين 100','ايزاكارد'],
+                "enames":['aspocid 75','aspirin 100','ezacard','aggrex'],
+                "names": ['اسبوسيد 75','اسبرين 100','ايزاكارد','اجركس'],
                 "images" : []
             },
             "traditionalInfo": "علاج السيولة",
