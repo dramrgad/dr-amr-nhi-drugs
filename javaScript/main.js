@@ -799,7 +799,7 @@ const allData = [
             "administration": "قرص بعد العشاء",
             "division1": "الدهون-او-الكوليستيرول",
             "division2": "",
-            "availability": "available small"
+            "availability": "not-available small"
         },
         {
             "drugName": "ليبانتيل",
