@@ -289,7 +289,7 @@ const allData = [
             "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "available"
+            "availability": "available small"
         },
         {
             "drugName": "افيفافاسك 10/16",
@@ -408,7 +408,7 @@ const allData = [
             "administration": "قرص يوميا ماعدا الجمعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "بيتاكور 80",
@@ -731,7 +731,7 @@ const allData = [
             "administration": "قرص بعد العشاء",
             "division1": "الدهون-او-الكوليستيرول",
             "division2": "",
-            "availability": "available small"
+            "availability": "available medium"
         },
         {
             "drugName": "اتوريزا 10/20",
@@ -1090,7 +1090,7 @@ const allData = [
             "administration": "قرص قبل الفطار",
             "division1": "ادوية السكر",
             "division2": "ادوية القلب والدعامة",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "بانتوبي - بانتوبرازول",
@@ -1107,7 +1107,7 @@ const allData = [
             "administration": "قرص قبل الفطار بنصف ساعة",
             "division1": "ادوية اخرى",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "حقنة البنسيلين",
