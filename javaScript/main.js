@@ -289,7 +289,7 @@ const allData = [
             "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "available small"
+            "availability": "not-available small"
         },
         {
             "drugName": "افيفافاسك 10/16",
