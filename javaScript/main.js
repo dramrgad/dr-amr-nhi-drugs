@@ -306,7 +306,7 @@ const allData = [
             "administration": "قرص قبل الفطار",
             "division1": "ادوية الضغط",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "ترياكور 5/5",
@@ -953,7 +953,7 @@ const allData = [
             "administration": "قرص بعد الغداء",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
-            "availability": "not-available"
+            "availability": "available"
         },
         
         {
@@ -971,7 +971,7 @@ const allData = [
             "administration": "قرص بعد الغداء",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "انسولين",
@@ -1005,7 +1005,7 @@ const allData = [
             "administration": "قرص قبل الاكل مباشرة مرة واحدة او مرتين طبقا لحالة المريض",
             "division1": "ادوية السكر",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "جليميت فورت",
