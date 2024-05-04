@@ -391,7 +391,7 @@ const allData = [
             "administration": "قرص بعد الغداء",
             "division1": "ادوية القلب والدعامة",
             "division2": "ادوية السيولة",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "كاردكسين",
