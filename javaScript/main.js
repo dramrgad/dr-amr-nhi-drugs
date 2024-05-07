@@ -782,7 +782,7 @@ const allData = [
             "administration": "قرص بعد العشاء",
             "division1": "الدهون-او-الكوليستيرول",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "اتور 40",
