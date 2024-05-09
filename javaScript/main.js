@@ -459,7 +459,7 @@ const allData = [
             "administration": "قرص كل 12 ساعة",
             "division1": "ادوية القلب والدعامة",
             "division2": "",
-            "availability": "not-available"
+            "availability": "available"
         },
         {
             "drugName": "كوردارون 200",
