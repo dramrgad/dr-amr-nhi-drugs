@@ -1005,7 +1005,7 @@ const allData = [
             "administration": "قرص قبل الاكل مباشرة مرة واحدة او مرتين طبقا لحالة المريض",
             "division1": "ادوية السكر",
             "division2": "",
-            "availability": "available"
+            "availability": "not-available"
         },
         {
             "drugName": "جليميت فورت",
