@@ -216,20 +216,21 @@ padding: 0 10px;
     width: 70%;
 }
 .availability.available::after{
-    content: "متوفر";
-    background-color: #225f1e;
+    content: "لا توجد معلومات حاليا";
+    /* background-color: #225f1e; */
+    background-color: red;
     color: white;
     width: 100%;
     display: block;
     border-radius: 5px;
     padding: 2px 0;
 }
-.availability.available.medium::after{
+/* .availability.available.medium::after{
   content: 'متوفر كمية قليلة';
-}
-.availability.available.small::after{
+} */
+/* .availability.available.small::after{
   content: 'متوفر كمية قليلة جدا';
-}
+} */
 
 
 
@@ -238,7 +239,7 @@ padding: 0 10px;
 
 
 .availability.not-available::after{
-    content: "غير متوفر";
+    content: "لا توجد معلومات حاليا";
     background-color: red;
     color: white;
     width: 100%;
@@ -254,10 +255,12 @@ padding: 0 10px;
 }
 
 .drugs-cards .every-drug.available::before{
-    content: "\f058";
+    /* content: "\f058"; */
+    content: "\f057";
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    color: #225f1e;
+    /* color: #225f1e; */
+    color: red;
     font-size: 50px;
     position: absolute;
     top: 50%;
